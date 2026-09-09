@@ -9,7 +9,7 @@ and proactive notifications via Supabase (see "Auth, persistence & notifications
 
 ## Stack
 
-- Node.js + TypeScript, ESM (`"type": "module"`)
+- Node.js + TypeScript, ESM `import`/`export` syntax throughout
 - `vitest` for tests, `tsx` for running TS directly (CLI/scripts), `tsc --noEmit` for type checking
 - `@google/genai` + `zod` for the AI layer (structured outputs via `responseJsonSchema` + Zod v4's
   native `z.toJSONSchema()`), `dotenv` to load `.env` in the CLI demo script only (the Next.js app
@@ -530,6 +530,80 @@ auth gate entirely when the env vars are absent, so `/login` still renders (it j
 successfully submit). `/demo` (the original Phase 3 wizard) stays reachable with no login and no
 Supabase at all — it's both a permanent no-commitment walkthrough and the thing that still worked
 while this phase was being built and manually verified end-to-end without real credentials.
+
+## Deploying to Vercel
+
+The project is git-linked to Vercel (auto-deploys `main` to production on every push) — see
+`.git`'s `origin` remote. Set the same variables from `.env.example` in the Vercel dashboard
+(**Project → Settings → Environment Variables**); nothing is synced automatically from a local
+`.env`, and secrets should never be pasted into a chat/agent session to be set on your behalf.
+`APP_URL` should be set to the deployed domain (e.g. `https://benefit-cliff-navigator.vercel.app`)
+once you know it, for the Supabase Edge Function's callback.
+
+### A real deploy bug this caught: middleware couldn't run on this Vercel/Next.js combination at all — so it was removed entirely
+
+The first production deploy 500'd on every single request. Root-causing it took four rounds, and
+the end state is that **`middleware.ts` no longer exists in this project** — there is no
+middleware file to configure or debug, by design.
+
+1. **With `"type": "module"` in `package.json`** (present since before this was a Next.js app, when
+   `src/cli.ts`/`src/cli-ai.ts` were the only entry points and needed it for plain-Node ESM
+   `import` syntax): Vercel ran `middleware.ts` on the Node.js runtime with no explicit runtime
+   declared, and hit `ERR_MODULE_NOT_FOUND` resolving Next's own `next/server` import from the
+   compiled bundle. Removing `"type": "module"` "fixed" this — but only by trading it for a worse
+   error: **without** it, Node's *default* CJS loader can't parse the bundle's ESM `import` syntax
+   at all (`Cannot use import statement outside a module`). So `"type": "module"` was never the bug
+   — it's required (`tsx` doesn't need it locally, since it registers its own loader ahead of
+   Node's native resolution, but Vercel's compiled middleware output does) — it stayed in
+   `package.json` for the rest of this investigation and is still there today.
+2. **Forcing `runtime: "nodejs"` explicitly** (via `export const config = { runtime: "nodejs" }`,
+   or a top-level `export const runtime = "nodejs"`) — neither is recognized by this Next.js
+   version for middleware specifically: both silently dropped middleware from the build entirely
+   (no warning, no `ƒ Proxy (Middleware)` line, no `middleware-manifest.json` entry) rather than
+   erroring, which would have shipped a build with *zero auth gating* had it not been checked
+   locally first. `experimental.nodeMiddleware` in `next.config.ts` (the Node.js-middleware opt-in
+   flag from Vercel's own docs) isn't a recognized experimental key in this version either —
+   Node.js-runtime middleware appears unsupported here altogether, full stop.
+3. **Forcing `runtime: "edge"` explicitly** (middleware's actual default, and the only runtime that
+   builds and registers at all) got past both of the above — but then crashed differently in
+   production: `ReferenceError: __dirname is not defined`. The working theory at the time was that
+   the old `middleware.ts`'s use of `@supabase/ssr`'s `createServerClient()` + `getUser()` (to
+   proactively refresh the session cookie on every request) was the cause — that pulls in the full
+   `@supabase/supabase-js` client, which unconditionally bundles its Realtime client (built on
+   `ws`, a Node-only package) even though middleware never uses Realtime, and `ws` isn't
+   Edge-compatible.
+4. **That theory turned out to be wrong.** `middleware.ts` was rewritten from scratch with zero
+   third-party imports at all (only `next/server`, plus a hand-rolled regex check for the
+   `sb-*-auth-token` cookie name instead of a real Supabase client) — and it crashed with the
+   *exact same* `ReferenceError: __dirname is not defined`, in the exact same place, on Vercel.
+   With no dependency left that could plausibly reference `__dirname`, this ruled out application
+   code entirely: it's a genuine platform bug in how this Next.js version's Turbopack build
+   compiles *any* `middleware.ts` for Vercel's Edge Runtime, which lacks Node globals like
+   `__dirname` by design (it's a V8 isolate, not a Node process).
+
+**The actual fix**: delete `middleware.ts` entirely, and move its two responsibilities into the
+two pages that needed them, as plain client-side `useEffect` checks —
+[src/app/login/page.tsx](src/app/login/page.tsx) redirects to `/dashboard` if
+`supabase.auth.getUser()` already returns a signed-in user, and
+[src/app/onboarding/page.tsx](src/app/onboarding/page.tsx) redirects to `/login` if it doesn't.
+This is a straight port of what the old dependency-free middleware (round 4, above) was already
+doing with the cookie-presence check — just relocated from the (broken) edge middleware layer into
+ordinary page components, which have no Edge Runtime restrictions at all. The *actual* security
+boundary was never middleware anyway: every page/route already calls its own
+`supabase.auth.getUser()` via `src/lib/supabase/server.ts`, which genuinely re-validates against
+Supabase regardless of what middleware decided — so removing middleware doesn't weaken
+authorization, it only removes a UX convenience (redirecting before a page even renders). The
+trade-off given up: no single choke point auto-redirects *every* route any more, and middleware's
+proactive session-cookie refresh on server-rendered navigations is gone too — the browser-side
+Supabase client (`src/lib/supabase/client.ts`) still auto-refreshes tokens on its own timer, so
+this only matters for a tab left idle across a token expiry with no client-side activity to
+trigger the browser refresh. If a third page ever needs the same "redirect if signed in/out"
+behavior, add the same `useEffect` pattern to it directly — there's no shared gate to update.
+
+If you ever see `ReferenceError: __dirname is not defined` from this app's Vercel deployment again,
+the likely cause is someone re-adding a `middleware.ts` file — don't; per the above, Edge-runtime
+middleware appears fundamentally broken for this Next.js/Turbopack/Vercel combination, independent
+of what the file imports.
 
 ## ⚠️ Data status — re-verified 2026-09-07, still needs your final sign-off
 

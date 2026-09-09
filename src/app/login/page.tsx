@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { getErrorMessage } from "@/lib/getErrorMessage";
 
@@ -14,6 +14,18 @@ export default function LoginPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [message, setMessage] = useState<string | null>(null);
+
+  // Previously handled by middleware (redirect away from /login once already signed in) — now
+  // done here directly, since this app's middleware.ts had to be removed entirely (see CLAUDE.md:
+  // this Next.js/Vercel combination's Edge-runtime middleware crashes with a Next.js/Turbopack
+  // platform bug — `ReferenceError: __dirname is not defined` — that reproduces even with zero
+  // third-party imports in middleware.ts, so it isn't something our own code can fix).
+  useEffect(() => {
+    const supabase = createClient();
+    supabase.auth.getUser().then(({ data }) => {
+      if (data.user) window.location.href = "/dashboard";
+    });
+  }, []);
 
   async function handlePasswordSubmit(e: React.FormEvent) {
     e.preventDefault();

@@ -20,14 +20,20 @@ export default function OnboardingPage() {
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  // Redirect-if-signed-out was previously middleware's job (see CLAUDE.md for why middleware.ts
+  // had to be removed entirely — a Next.js/Turbopack Edge-runtime platform bug, not our code).
   useEffect(() => {
     const supabase = createClient();
     supabase.auth.getUser().then(({ data }) => {
-      const email = data.user?.email ?? "";
+      if (!data.user) {
+        router.push("/login");
+        return;
+      }
+      const email = data.user.email ?? "";
       setAuthEmail(email);
       setNotificationEmail(email);
     });
-  }, []);
+  }, [router]);
 
   async function handleProfileSaved(p: HouseholdProfile) {
     setProfile(p);
