@@ -1,0 +1,4412 @@
+{
+  "fetchedAt": "2026-09-07T14:27:21.760Z",
+  "source": "https://www.ccube.gov.sg/coordinator/api/resources/v1 (embedded by https://supportgowhere.life.gov.sg)",
+  "categories": {
+    "caregiving_support": [
+      "Sucth2ke",
+      "HEALTHIERSG",
+      "SDA",
+      "SVC-HM",
+      "SVC-CBN",
+      "C46c4FeP",
+      "CAREGIVERS_TRAINING",
+      "34sPdG1b",
+      "zrAAc6BN",
+      "SVC-HDSSPIII",
+      "KXiQ9o1l",
+      "MEDISAVE_CARE",
+      "MDW_LEVY_CONCESSION",
+      "IDAPE",
+      "ETS",
+      "TSS",
+      "QEAKpruj",
+      "SVC-DACD",
+      "oWweAQMH",
+      "ddXZpncg",
+      "SVC-DDC",
+      "SVC-IHPCS",
+      "SVC-PDC",
+      "SVC-NHRC",
+      "SVC-PHC",
+      "SVC-NH",
+      "SVC-CRC",
+      "SVC-HT",
+      "SVC-HN",
+      "SVC-MOWM",
+      "SVC-MEATM",
+      "SVC-MDCC",
+      "SCCR",
+      "MP-MSB",
+      "cPaqWRKy",
+      "GSTV-MEDISAVE",
+      "MEDISAVE-TOPUP",
+      "GST-SENIORS",
+      "SVC-CTCP",
+      "SVC-SY",
+      "SVC-LPA",
+      "SNSS",
+      "izIXWd7S",
+      "bncVrBSn",
+      "PrBDGZa7",
+      "JqJOoLnT",
+      "HCG",
+      "EASE",
+      "o0cdiebU",
+      "SVC-HPCSH",
+      "nzWStXJo",
+      "SMF",
+      "HEALTHY365",
+      "SVC-CPFN",
+      "nywYq9hc",
+      "DPS",
+      "SVC-COTC",
+      "SVC-ACP",
+      "LrEfS3Nx",
+      "ATF",
+      "P3m8eAvW",
+      "MEDIFUND",
+      "n4iFaG9r",
+      "SVC-D",
+      "PDDS",
+      "SVC-ML",
+      "MEDISHIELD",
+      "MEDISAVE",
+      "LWAWP",
+      "lceYNjsb",
+      "CPLS",
+      "DKTZwVPL"
+    ],
+    "financial_support_and_benefits": [
+      "Sucth2ke",
+      "HEALTHIERSG",
+      "Z9jTRTTL",
+      "HPS",
+      "Whq71CAX",
+      "AboVw46N",
+      "3OUzHyMJ",
+      "U-SAVE",
+      "CDC",
+      "Q1UpgN0i",
+      "CDA",
+      "BSG",
+      "CDAA",
+      "BB-CG",
+      "SHB",
+      "HOUSEL-HDB",
+      "SU-CPFHG-FAM",
+      "ieMs9uMO",
+      "CPF-HG",
+      "CEt7UtbF",
+      "CAREGIVERS_TRAINING",
+      "GNAgZJDj",
+      "2TFgSkxq",
+      "COMCARE-SMTA",
+      "MUIS-FAS",
+      "SKILLSFUTURE_CREDITS",
+      "MEDISAVE_CARE",
+      "SFFELLOW",
+      "SFMCES",
+      "L0DUZZzA",
+      "MDW_LEVY_CONCESSION",
+      "ELDERSHIELD",
+      "CARESHIELD",
+      "IDAPE",
+      "ELDERFUND",
+      "PIONEER-DAS",
+      "9kUw7c5Q",
+      "ETS",
+      "TSS",
+      "QEAKpruj",
+      "jduPoSEk",
+      "SCFA",
+      "PHG-FAMILIES",
+      "CHAS",
+      "SCCR",
+      "MP-MSB",
+      "MP-RSB",
+      "MP-ESB",
+      "cPaqWRKy",
+      "GSTV-MEDISAVE",
+      "GSTV-CASH",
+      "MEDISAVE-TOPUP",
+      "GST-CASH",
+      "GST-SENIORS",
+      "WSS",
+      "SFC-MID-CAREER",
+      "SFWKSTDEG",
+      "SF-MID-CAREER-TA",
+      "yYmSnTml",
+      "SGUP-CA",
+      "wpGyuJUN",
+      "SNSS",
+      "cllsZZkD",
+      "HCG",
+      "CPF-HG-EC",
+      "gXSeAhba",
+      "ENCPFHG-SIN",
+      "OAn8RIRG",
+      "ENCPFHG-FAM",
+      "FRESH-START",
+      "PHG-SINGLES",
+      "IwOX3hng",
+      "EASE",
+      "2K6v76Ac",
+      "PKQxhC2q",
+      "nzWStXJo",
+      "MFAS",
+      "INFANT-CHILD-CARE",
+      "KIFAS",
+      "P3MkHRbU",
+      "SMF",
+      "VSj0VliA",
+      "ESbwvFrn",
+      "SILVERSUPPORT",
+      "E-WIS",
+      "LEASE_BUYBACK",
+      "D3cZDpbD",
+      "DIGITALACCESS-HOME-SCHEME",
+      "uX75MUE0",
+      "PTV",
+      "DPS",
+      "RLE",
+      "7c13MJjn",
+      "wEfmIVLx",
+      "FcwgSMsK",
+      "PCTS",
+      "a7JTjGeT",
+      "dKO0Ow30",
+      "QDc9ihgy",
+      "WTCS",
+      "BX7Se4Pg",
+      "EDUSAVE-ACC",
+      "ByVdAY7f",
+      "SPED-FAS",
+      "MOE-FAS",
+      "FTNt6bee",
+      "MOBILE-ACCESS-SENIORS",
+      "LrEfS3Nx",
+      "ATF",
+      "sygrV7iy",
+      "MEDIFUND",
+      "SSAS",
+      "n4iFaG9r",
+      "DPS_MSF",
+      "cVkNdnyT",
+      "TAX_RELIEF_CAREGIVERS_DISABLED",
+      "nO5dmWvA",
+      "cVyhpH3s",
+      "U3ip0GiR",
+      "MEDISHIELD",
+      "MEDISAVE",
+      "I0ZPVBeU",
+      "leUjvFgL",
+      "N8hHgjb3",
+      "NSLSG-CREDIT",
+      "PgRdvYbQ",
+      "oS6OeT45",
+      "3KmPKHA7",
+      "G1ZJdvwf",
+      "gk4nIS14",
+      "XPg2wTUs",
+      "lceYNjsb",
+      "DKTZwVPL",
+      "myy0wYU5",
+      "1GKrS2tn",
+      "CCLONfhj"
+    ],
+    "disability_support": [
+      "Sucth2ke",
+      "HEALTHIERSG",
+      "SDA",
+      "SVC-HM",
+      "SVC-CBN",
+      "CEt7UtbF",
+      "CAREGIVERS_TRAINING",
+      "f4VjU9VH",
+      "MEDISAVE_CARE",
+      "MDW_LEVY_CONCESSION",
+      "ELDERSHIELD",
+      "CARESHIELD",
+      "IDAPE",
+      "ELDERFUND",
+      "PIONEER-DAS",
+      "ETS",
+      "TSS",
+      "QEAKpruj",
+      "SVC-DACD",
+      "oWweAQMH",
+      "ddXZpncg",
+      "SVC-EIPFICE",
+      "SVC-EIPFIACPEP",
+      "SVC-SW",
+      "SVC-SESSAWII",
+      "SVC-SESSMTSID",
+      "7gjb1DT2",
+      "SVC-DDC",
+      "SVC-IHPCS",
+      "SVC-PDC",
+      "SVC-NHRC",
+      "SVC-PHC",
+      "SVC-NH",
+      "SVC-CRC",
+      "SVC-HT",
+      "SVC-HN",
+      "SVC-MOWM",
+      "SVC-MEATM",
+      "SVC-MDCC",
+      "MP-MSB",
+      "cPaqWRKy",
+      "GSTV-MEDISAVE",
+      "MEDISAVE-TOPUP",
+      "GST-SENIORS",
+      "LPsRp3sD",
+      "lFdUZ4N8",
+      "SNSS",
+      "bncVrBSn",
+      "bjQYWnuX",
+      "cllsZZkD",
+      "PrBDGZa7",
+      "JqJOoLnT",
+      "7mQT5PCe",
+      "HCG",
+      "s1Mns2Os",
+      "EASE",
+      "ejdrPN9A",
+      "zQnhRFwq",
+      "2K6v76Ac",
+      "PKQxhC2q",
+      "o0cdiebU",
+      "SVC-HPCSH",
+      "nzWStXJo",
+      "SMF",
+      "HEALTHY365",
+      "nywYq9hc",
+      "SVC-SESSMD",
+      "DPS",
+      "SVC-SESSAWNII",
+      "PWD-CONCESSION",
+      "SVC-COTC",
+      "LrEfS3Nx",
+      "SVC-SESSMID",
+      "SVC-SESSSI",
+      "ATF",
+      "P3m8eAvW",
+      "sygrV7iy",
+      "MEDIFUND",
+      "n4iFaG9r",
+      "DPS_MSF",
+      "SVC-D",
+      "PDDS",
+      "TAX_RELIEF_CAREGIVERS_DISABLED",
+      "nO5dmWvA",
+      "cVyhpH3s",
+      "U3ip0GiR",
+      "MEDISHIELD",
+      "MEDISAVE",
+      "LWAWP",
+      "oS6OeT45",
+      "XPg2wTUs",
+      "lceYNjsb",
+      "CPLS",
+      "DKTZwVPL",
+      "1GKrS2tn"
+    ],
+    "healthcare_and_wellbeing": [
+      "Sucth2ke",
+      "HEALTHIERSG",
+      "SVC-HM",
+      "Q1UpgN0i",
+      "ngaAPNbH",
+      "DAL4e5J1",
+      "CEt7UtbF",
+      "54sFPLUr",
+      "MEDISAVE_CARE",
+      "NATIONAL_SILVER_ACADEMY",
+      "ELDERSHIELD",
+      "CARESHIELD",
+      "IDAPE",
+      "ELDERFUND",
+      "SVC-DACD",
+      "CHAS",
+      "SVC-DDC",
+      "SVC-AACAAACHASACS",
+      "SVC-CRC",
+      "SVC-HT",
+      "SVC-HN",
+      "SVC-MDCC",
+      "MP-MSB",
+      "cPaqWRKy",
+      "GSTV-MEDISAVE",
+      "MEDISAVE-TOPUP",
+      "HCG",
+      "L4IhetvC",
+      "2K6v76Ac",
+      "PKQxhC2q",
+      "HEALTHY365",
+      "705gVCXW",
+      "D3cZDpbD",
+      "ckLFmJ4I",
+      "wEfmIVLx",
+      "QDc9ihgy",
+      "gyDNuWnW",
+      "LrEfS3Nx",
+      "ZHDOAsEu",
+      "MEDIFUND",
+      "n4iFaG9r",
+      "MEDISHIELD",
+      "MEDISAVE",
+      "LWAWP",
+      "ACTIVESG_MEMBERSHIP",
+      "lceYNjsb",
+      "DKTZwVPL",
+      "1GKrS2tn"
+    ],
+    "family_parenting_and_relationships": [
+      "SVC-TBP",
+      "Z9jTRTTL",
+      "HPS",
+      "AboVw46N",
+      "3OUzHyMJ",
+      "SVC-YC",
+      "webPUlth",
+      "U-SAVE",
+      "CDC",
+      "z1YHov1e",
+      "hyKt9lkY",
+      "bJlTN9xt",
+      "iq4yqplI",
+      "Q1UpgN0i",
+      "CDA",
+      "BSG",
+      "CDAA",
+      "BB-CG",
+      "HOUSEL-HDB",
+      "FTPMC-CAT",
+      "SU-CPFHG-FAM",
+      "ieMs9uMO",
+      "CPF-HG",
+      "PURCHASE-EC",
+      "C46c4FeP",
+      "iO9WdkX4",
+      "ceeJSWE0",
+      "ngaAPNbH",
+      "CAREGIVERS_TRAINING",
+      "GNAgZJDj",
+      "SVC-ELAMPE",
+      "SVC-MFCM",
+      "SVC-HS",
+      "SVC-LOBTCS",
+      "a0ctwtOS",
+      "PPHS",
+      "SVC-SLFS",
+      "SVC-MSCM",
+      "SVC-HDSSPIII",
+      "2TFgSkxq",
+      "NYD4HRJs",
+      "KXiQ9o1l",
+      "SVC-BPCS",
+      "MUIS-FAS",
+      "SKILLSFUTURE_CREDITS",
+      "MEDISAVE_CARE",
+      "SFMCES",
+      "MDW_LEVY_CONCESSION",
+      "ELDERFUND",
+      "JJxxRnDK",
+      "Qwr1qXZm",
+      "9kUw7c5Q",
+      "ETS",
+      "KIDSTART",
+      "SVC-DACD",
+      "SVC-FVSCF",
+      "jduPoSEk",
+      "SCFA",
+      "PHG-FAMILIES",
+      "SVC-EIPFICE",
+      "SVC-EIPFIACPEP",
+      "SVC-SESSAWII",
+      "SVC-SESSMTSID",
+      "SCCR",
+      "GSTV-CASH",
+      "MEDISAVE-TOPUP",
+      "GST-CASH",
+      "SFWKSTDEG",
+      "SF-MID-CAREER-TA",
+      "wpGyuJUN",
+      "VG22AnYD",
+      "SVC-WP",
+      "SVC-SY",
+      "HCG",
+      "CPF-HG-EC",
+      "gXSeAhba",
+      "L4IhetvC",
+      "ENCPFHG-SIN",
+      "ENCPFHG-FAM",
+      "FAM-PRIORITY",
+      "PHG-SINGLES",
+      "MC-PRIORITY",
+      "IwOX3hng",
+      "ASSIST-SECTIMERS",
+      "TEN-PRIORITY",
+      "TC-PRIORITY",
+      "2K6v76Ac",
+      "PKQxhC2q",
+      "MFAS",
+      "INFANT-CHILD-CARE",
+      "KIFAS",
+      "QlaRQpLF",
+      "VSj0VliA",
+      "HEALTHY365",
+      "dGlR81dt",
+      "705gVCXW",
+      "E-WIS",
+      "NGzAFA4b",
+      "PUBLICRENTAL-FAMILY",
+      "D3cZDpbD",
+      "ckLFmJ4I",
+      "DIGITALACCESS-HOME-SCHEME",
+      "SVC-SESSMD",
+      "PTV",
+      "DPS",
+      "PCTS",
+      "a7JTjGeT",
+      "dKO0Ow30",
+      "QDc9ihgy",
+      "WTCS",
+      "SVC-SESSAWNII",
+      "BX7Se4Pg",
+      "gyDNuWnW",
+      "EDUSAVE-ACC",
+      "ByVdAY7f",
+      "SPED-FAS",
+      "MOE-FAS",
+      "FTNt6bee",
+      "YIT",
+      "SVC-SESSMID",
+      "SVC-SESSSI",
+      "VcxSSXs5",
+      "yQfF0Pj8",
+      "qgZZZ5b3",
+      "ZHDOAsEu",
+      "sygrV7iy",
+      "SVC-SFPFFF",
+      "MEDIFUND",
+      "SVC-TST",
+      "SSAS",
+      "SVC-EMSEFMAYMC",
+      "DPS_MSF",
+      "SVC-CPSCC",
+      "cVkNdnyT",
+      "TAX_RELIEF_CAREGIVERS_DISABLED",
+      "nO5dmWvA",
+      "cVyhpH3s",
+      "U3ip0GiR",
+      "MEDISHIELD",
+      "MEDISAVE",
+      "ACTIVESG_MEMBERSHIP",
+      "I0ZPVBeU",
+      "N8hHgjb3",
+      "PgRdvYbQ",
+      "SVC-FSCF",
+      "3KmPKHA7",
+      "G1ZJdvwf",
+      "gk4nIS14",
+      "SVC-RASP",
+      "XPg2wTUs",
+      "DKTZwVPL",
+      "myy0wYU5",
+      "1GKrS2tn"
+    ]
+  },
+  "uniqueSchemeCount": 255,
+  "schemes": [
+    {
+      "id": "cPaqWRKy",
+      "title": "2025 MediSave Bonus",
+      "description": "Boosts healthcare savings of seniors born in 1950-1973 with lower MediSave balances.",
+      "keywords": [
+        "CPF payouts",
+        "Seniors"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/cPaqWRKy"
+    },
+    {
+      "id": "PTV",
+      "title": "2025 Public Transport Voucher (PTV) Exercise",
+      "description": "Provides lower-income households with PTVs to cope with the fare adjustment from 27 December 2025.",
+      "keywords": [
+        "Lower-income",
+        "Public transport"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "DOMAIN_178"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/PTV"
+    },
+    {
+      "id": "CCLONfhj",
+      "title": "ABSD Concession for Single Singapore Citizen Seniors",
+      "description": "Provides single Singapore Citizen seniors (aged 55 and above) a refund for the Additional Buyer's Stamp Duty (ABSD) on their second residential property purchase.",
+      "keywords": [
+        "Home ownership",
+        "Seniors",
+        "Singles"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/CCLONfhj"
+    },
+    {
+      "id": "SVC-AACAAACHASACS",
+      "title": "Active Ageing Centres (AAC)",
+      "description": "A centre for seniors to build strong social connections, take part in recreational activities, access community health services, and contribute to the community.",
+      "keywords": [
+        "Day Care"
+      ],
+      "domains": [
+        "DOMAIN_177",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-AACAAACHASACS"
+    },
+    {
+      "id": "ACTIVESG_MEMBERSHIP",
+      "title": "ActiveSG Membership",
+      "description": "A national movement for individuals, families and communities to experience and share the joy of living better through sports.",
+      "keywords": [
+        "Families"
+      ],
+      "domains": [
+        "DOMAIN_177",
+        "FAMILY_PARENTING",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ACTIVESG_MEMBERSHIP"
+    },
+    {
+      "id": "54sFPLUr",
+      "title": "Addiction Support Programme for Inclusion, Recovery, and Empowerment (ASPIRE)",
+      "description": "For individuals aged 10 and above who have a present or past addiction issue (including gaming, compulsive gambling, shoplifting, drugs, alcohol, sex and porn use) or are currently impacted by the addiction of a loved one.",
+      "keywords": [
+        "Addiction",
+        "Counselling"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "HEALTHCARE",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/54sFPLUr"
+    },
+    {
+      "id": "1GKrS2tn",
+      "title": "Additional Premium Support for MediShield Life and CareShield Life",
+      "description": "Provides financial support for Singapore Citizens and Permanent Residents who are unable to afford their MediShield Life and/or CareShield Life premiums (where applicable) even after Government subsidies and MediSave use and have limited family support.",
+      "keywords": [
+        "Health Insurance",
+        "Lower-income",
+        "Subsidies"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/1GKrS2tn"
+    },
+    {
+      "id": "bJlTN9xt",
+      "title": "Adoption Leave for Mothers (AL)",
+      "description": "Provides up to 12 weeks of leave for eligible adoptive mothers to care for their adopted child.",
+      "keywords": [
+        "Child care",
+        "Paid leave",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/bJlTN9xt"
+    },
+    {
+      "id": "SVC-ACP",
+      "title": "Advance Care Planning (ACP)",
+      "description": "Helps communicate your values and how they shape your healthcare preferences to your loved ones and healthcare team.",
+      "keywords": [
+        "Advance Care Planning",
+        "Fees payable"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "LEGACY_PLANNING",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-ACP"
+    },
+    {
+      "id": "nywYq9hc",
+      "title": "Application for Deceased's Unnominated CPF Monies",
+      "description": "Distribution of the un-nominated Central Provident Fund (CPF) monies of the Deceased Member in accordance with the relevant written law.",
+      "keywords": [
+        "CPF",
+        "CPF un-nominated monies"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "LEGACY_PLANNING",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/nywYq9hc"
+    },
+    {
+      "id": "ASSIST-SECTIMERS",
+      "title": "Assistance Scheme for Second Timers (Divorced/ Widowed Parents) (ASSIST)",
+      "description": "Allocates up to 5% of flats for eligible divorced or widowed parents applying for 2-room Flexi and 3-room BTO flats.",
+      "keywords": [
+        "HDB households",
+        "Second-timer families"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ASSIST-SECTIMERS"
+    },
+    {
+      "id": "ddXZpncg",
+      "title": "Assisted Deputyship Application Programme (ADAP)",
+      "description": "ADAP supports caregivers of children without mental capacity to apply to be court-appointed deputies, through the simplified deputyship process. As a deputy, the caregiver can make legal decisions for the child when he/she turns 21.",
+      "keywords": [
+        "Caregiver support",
+        "Referral required",
+        "Special needs"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ddXZpncg"
+    },
+    {
+      "id": "ATF",
+      "title": "Assistive Technology Fund (ATF)",
+      "description": "Provides subsidies for persons with disabilities (PWDs) to purchase assistive technology devices to enable independent living. The devices should aid early intervention, education, training, employment, therapy, rehabilitation and/or independence in daily living for PWDs.",
+      "keywords": [
+        "Assistive devices",
+        "PWDs",
+        "Subsidies"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ATF"
+    },
+    {
+      "id": "GST-CASH",
+      "title": "Assurance Package (AP) Cash",
+      "description": "$700 to $2,250 cash payouts over 5 years from 2022 to 2026 for adult Singapore Citizens aged 21 and above, residing in Singapore, based on Assessable Income and number of properties owned.",
+      "keywords": [
+        "Budget 2023",
+        "Cash assistance"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/GST-CASH"
+    },
+    {
+      "id": "MEDISAVE-TOPUP",
+      "title": "Assurance Package (AP) MediSave",
+      "description": "MediSave top-up of $150 each year from 2023 to 2025, for Singapore Citizens aged 20 and below, or 55 and above, residing in Singapore.",
+      "keywords": [
+        "Budget 2023",
+        "CPF top-ups",
+        "Seniors"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/MEDISAVE-TOPUP"
+    },
+    {
+      "id": "GST-SENIORS",
+      "title": "Assurance Package (AP) Seniors' Bonus",
+      "description": "$600 to $900 cash payouts over 3 years from 2023 to 2025 for eligible Singapore Citizens aged 55 and above.",
+      "keywords": [
+        "Budget 2023",
+        "Cash assistance",
+        "Seniors"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/GST-SENIORS"
+    },
+    {
+      "id": "SVC-BPCS",
+      "title": "Babes Pregnancy Crisis Support",
+      "description": "For individuals aged 21 and below needing support with their pregnancy, so that they are aware of their options and are able to make an informed decision regarding their pregnancy.",
+      "keywords": [
+        "Free",
+        "Teenage Pregnancy and Sexuality"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-BPCS"
+    },
+    {
+      "id": "BB-CG",
+      "title": "Baby Bonus Cash Gift",
+      "description": "Help parents defray child-raising costs through regular cash payouts in their child's early years.",
+      "keywords": [
+        "Budget 2023",
+        "Cash assistance",
+        "Families"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/BB-CG"
+    },
+    {
+      "id": "BSG",
+      "title": "Baby Support Grant",
+      "description": "Help parents ease financial concerns about raising a child during extraordinary times.",
+      "keywords": [
+        "Budget 2023",
+        "Cash assistance",
+        "Families"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/BSG"
+    },
+    {
+      "id": "CPLS",
+      "title": "Car Park Label Scheme",
+      "description": "Provides two types of labels that allow drivers (Class 1) and passengers (Class 2) with medically certified mobility challenges to park at accessible spaces, so they can board or alight from their vehicles safely.",
+      "keywords": [
+        "PWDs",
+        "Transport"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/CPLS"
+    },
+    {
+      "id": "7mQT5PCe",
+      "title": "CAREbuddy",
+      "description": "CAREbuddy is a supportive service for caregivers, provided by trained volunteers (CAREbuddy) who are also caregivers to dependents with disabilities.\n\nCAREbuddy programme is 6-months long during which the CAREbuddy provides emotional support, shares resources, and helps caregivers progress in their caregiving journey.",
+      "keywords": [
+        "Caregiver support",
+        "PWDs"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/7mQT5PCe"
+    },
+    {
+      "id": "bncVrBSn",
+      "title": "CAREconnect",
+      "description": "CAREconnect offers inclusive social events for family bonding and connection to fellow caregivers and volunteers, through mobilising support groups, organising inclusive, social, and/or respite events, and webinars.",
+      "keywords": [
+        "Caregiver support"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/bncVrBSn"
+    },
+    {
+      "id": "SVC-CTCP",
+      "title": "Caregiver Training and Support Programme",
+      "description": "Provides training and support to caregivers of persons with mental health conditions so that they can better cope with their caregiving duties.",
+      "keywords": [
+        "Caregiver support",
+        "Free"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-CTCP"
+    },
+    {
+      "id": "CAREGIVERS_TRAINING",
+      "title": "Caregivers Training Grant (CTG)",
+      "description": "Subsidy for caregivers to offset the training fees of approved courses to equip themselves with the necessary skills to care for their loved ones.",
+      "keywords": [
+        "Caregiver support",
+        "Subsidies",
+        "Trainings"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/CAREGIVERS_TRAINING"
+    },
+    {
+      "id": "KXiQ9o1l",
+      "title": "CARENIGHTS",
+      "description": "Supports children aged 6 to 14 from vulnerable families with structured evening care services.",
+      "keywords": [
+        "Caregiver support",
+        "Free"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/KXiQ9o1l"
+    },
+    {
+      "id": "CARESHIELD",
+      "title": "CareShield Life",
+      "description": "Provides basic financial protection for Singapore Citizens and Permanent Residents with severe disability, especially during old age and need long-term care.",
+      "keywords": [
+        "Cash assistance",
+        "Health Insurance",
+        "Long-term"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/CARESHIELD"
+    },
+    {
+      "id": "2K6v76Ac",
+      "title": "CareShield Life / ElderShield Supplements",
+      "description": "Provides additional benefits, like higher payouts, for CareShield Life or ElderShield policyholders.",
+      "keywords": [
+        "Health Insurance",
+        "Long-term care"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/2K6v76Ac"
+    },
+    {
+      "id": "PKQxhC2q",
+      "title": "CareShield Life Premium Subsidies",
+      "description": "To ensure that CareShield Life premiums are affordable, the Government has committed to providing several premium support measures, such as Premium Subsidies, Participation Incentives and Additional Participation Incentives for Merdeka and Pioneer Generation.",
+      "keywords": [
+        "Health Insurance",
+        "Subsidies"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/PKQxhC2q"
+    },
+    {
+      "id": "izIXWd7S",
+      "title": "CAREwell",
+      "description": "CAREwell is a program that supports caregivers in their caregiving role, emotional and mental wellness, decision- making regarding services, and care management.",
+      "keywords": [
+        "Caregiver support"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/izIXWd7S"
+    },
+    {
+      "id": "P3MkHRbU",
+      "title": "Cash Relief for Platform Workers and Taxi Drivers",
+      "description": "$200 cash payout for eligible platform workers and taxi drivers.",
+      "keywords": [
+        "Cash assistance",
+        "Workers"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/P3MkHRbU"
+    },
+    {
+      "id": "SVC-CBN",
+      "title": "Centre-based Nursing",
+      "description": "Basic nursing care for seniors at a centre near their homes.",
+      "keywords": [
+        "Day Care",
+        "Referral required"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-CBN"
+    },
+    {
+      "id": "NGzAFA4b",
+      "title": "Change in HDB Flat Ownership After Flat Owner's Demise",
+      "description": "Retain your HDB flat following the demise of joint owner or sole owner/tenant-in-common.",
+      "keywords": [
+        "Home ownership"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "HOUSING_SHELTERS",
+        "LEGACY_PLANNING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/NGzAFA4b"
+    },
+    {
+      "id": "CDAA",
+      "title": "Child Development Account",
+      "description": "Special savings account for the child, which can be used for approved areas of child-raising expenditure, including healthcare and preschool fees.",
+      "keywords": [
+        "Budget 2023",
+        "Families"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/CDAA"
+    },
+    {
+      "id": "GNAgZJDj",
+      "title": "Child LifeSG Credits",
+      "description": "Provides broad-based support for Singaporean families with children.",
+      "keywords": [
+        "Budget 2026",
+        "Families",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/GNAgZJDj"
+    },
+    {
+      "id": "SVC-CPSCC",
+      "title": "Child Protection Specialist Centre (CPSC)",
+      "description": "Serves as specialists on child protection matters to provide community-based support to children who face abuse or neglect at home.",
+      "keywords": [
+        "Abuse, neglect & violence",
+        "Free",
+        "Referral required"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-CPSCC"
+    },
+    {
+      "id": "COMCARE-SMTA",
+      "title": "ComCare Assistance",
+      "description": "Provides financial support for individuals and families facing varied challenges, ensuring timely aid for both short-term and long-term needs.",
+      "keywords": [
+        "Cash assistance",
+        "Lower-income",
+        "Short-to-medium term"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/COMCARE-SMTA"
+    },
+    {
+      "id": "a7JTjGeT",
+      "title": "ComLink+",
+      "description": "Empower lower-income families to achieve stability, self-reliance, and social mobility.",
+      "keywords": [
+        "Budget 2026",
+        "Families",
+        "Lower-income"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/a7JTjGeT"
+    },
+    {
+      "id": "CDC",
+      "title": "Community Development Council (CDC) Vouchers",
+      "description": "Can be used at participating heartland merchants, hawkers, and supermarkets",
+      "keywords": [
+        "Budget 2026",
+        "Households"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "DOMAIN_178"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/CDC"
+    },
+    {
+      "id": "CHAS",
+      "title": "Community Health Assist Scheme (CHAS)",
+      "description": "Provides subsidies for medical and dental care at participating GPs and dental clinics for all Singapore Citizens.",
+      "keywords": [
+        "Lower-income",
+        "Subsidies"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/CHAS"
+    },
+    {
+      "id": "oWweAQMH",
+      "title": "Community Mental Health Services",
+      "description": "Community mental health teams located across Singapore provide support and access to mental health care for those in need.",
+      "keywords": [
+        "Counselling",
+        "Intervention and Therapy",
+        "Social-emotional Support"
+      ],
+      "domains": [
+        "DOMAIN_177",
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "COUNSELLING_CRISIS",
+        "DISABILITY_SUPPORT",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/oWweAQMH"
+    },
+    {
+      "id": "SVC-COTC",
+      "title": "Community Outreach Teams (CREST)",
+      "description": "Listens to your concerns and provides support such as therapy, as your in-person First Stop for Mental Health.",
+      "keywords": [
+        "Caregiver support"
+      ],
+      "domains": [
+        "DOMAIN_177",
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "COUNSELLING_CRISIS",
+        "DISABILITY_SUPPORT",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-COTC"
+    },
+    {
+      "id": "SVC-CRC",
+      "title": "Community Rehabilitation Centre",
+      "description": "Centre-based therapy sessions to help seniors improve mobility, speech, and daily living skills.",
+      "keywords": [
+        "Day Care",
+        "Referral required"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-CRC"
+    },
+    {
+      "id": "iO9WdkX4",
+      "title": "Counselling",
+      "description": "Provides counselling and psychotherapy to individuals, couples and families facing interpersonal, intrapersonal, and mental health issues.",
+      "keywords": [
+        "Counselling",
+        "Families"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "FAMILY_PARENTING",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/iO9WdkX4"
+    },
+    {
+      "id": "ceeJSWE0",
+      "title": "Counselling (Seniors)",
+      "description": "Provides counselling to older persons aged 50 and above and/or their caregivers, to improve their mental well-being and resilience to cope with life’s challenges.",
+      "keywords": [
+        "Counselling",
+        "Seniors"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "FAMILY_PARENTING",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ceeJSWE0"
+    },
+    {
+      "id": "3OUzHyMJ",
+      "title": "CPF Education Loan Scheme",
+      "description": "A loan scheme that allows CPF member to use their Ordinary Account (OA) savings to pay for their own, children’s, spouse’s, siblings' or relatives' government subsidised tuition fees for full-time diploma/degree courses at Approved Educational Institutions (AEIs).",
+      "keywords": [
+        "CPF",
+        "Education expenses",
+        "Students"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/3OUzHyMJ"
+    },
+    {
+      "id": "CPF-HG",
+      "title": "CPF Housing Grant",
+      "description": "Provide more support for first-time homebuyers to purchase resale HDB flats.",
+      "keywords": [
+        "Budget 2023",
+        "Families",
+        "Housing grants"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/CPF-HG"
+    },
+    {
+      "id": "ieMs9uMO",
+      "title": "CPF Housing Grant (Families) - Top-Up Grant",
+      "description": "Provides up to $40,000 housing grants to eligible families if they had previously received CPF Housing Grant for Singles and now qualify for the CPF Housing Grant for Families.",
+      "keywords": [
+        "Housing grants"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ieMs9uMO"
+    },
+    {
+      "id": "CPF-HG-EC",
+      "title": "CPF Housing Grant for Executive Condominiums (ECs)",
+      "description": "Provides up to $30,000 subsidy for eligible first-timer applicants buying an Executive Condominium (EC).",
+      "keywords": [
+        "CPF top-ups",
+        "Housing grants"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/CPF-HG-EC"
+    },
+    {
+      "id": "AboVw46N",
+      "title": "CPF Housing Scheme",
+      "description": "Enables CPF members to use their Ordinary Account (OA) savings to buy properties and pay for various housing purchase-related costs if they are owners of the property.",
+      "keywords": [
+        "CPF",
+        "Home ownership"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/AboVw46N"
+    },
+    {
+      "id": "Whq71CAX",
+      "title": "CPF Investment Scheme (CPFIS)",
+      "description": "Provides CPF members an option to invest their OA and SA savings to enhance retirement funds.",
+      "keywords": [
+        "CPF"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/Whq71CAX"
+    },
+    {
+      "id": "wEfmIVLx",
+      "title": "CPF LIFE",
+      "description": "CPF Lifelong Income For the Elderly (CPF LIFE) is a national longevity insurance annuity scheme that provides you with monthly payouts no matter how long you live.",
+      "keywords": [
+        "CPF payouts"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "DOMAIN_178",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/wEfmIVLx"
+    },
+    {
+      "id": "SVC-CPFN",
+      "title": "CPF Nomination",
+      "description": "Allows you to decide what happens to your CPF savings after your death.",
+      "keywords": [
+        "Advance Care Planning",
+        "Free"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "LEGACY_PLANNING",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-CPFN"
+    },
+    {
+      "id": "SVC-DACD",
+      "title": "Day Activity Centre (DAC)",
+      "description": "Community-based facilities that provide care and skills training to persons with disabilities aged 18 and above to maximise their independence.",
+      "keywords": [
+        "Day Care",
+        "Fees payable",
+        "Referral required"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-DACD"
+    },
+    {
+      "id": "SVC-PDC",
+      "title": "Day Hospice Care",
+      "description": "A safe and supportive environment during the day for patients with life-limiting illnesses and their caregivers.",
+      "keywords": [
+        "Caregiver support",
+        "Referral required"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-PDC"
+    },
+    {
+      "id": "SVC-DDC",
+      "title": "Dementia Day Care",
+      "description": "Mind stimulating activities, exercises and personal care at day care centres for seniors with dementia.",
+      "keywords": [
+        "Day Care",
+        "Referral required",
+        "Subsidies"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-DDC"
+    },
+    {
+      "id": "DPS",
+      "title": "Dependant's Protection Scheme (DPS)",
+      "description": "Term life insurance scheme, solely administered by Great Eastern Life that provides basic financial protection for you and your family in the event of death, terminal illness or total permanent disability.",
+      "keywords": [
+        "Insurance",
+        "PWDs"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/DPS"
+    },
+    {
+      "id": "SVC-D",
+      "title": "Deputyship",
+      "description": "For persons who lack mental capacity and have not made a Lasting Power of Attorney (LPA) and/or have no donee to make certain decisions on their behalf.",
+      "keywords": [
+        "Mental incapacity"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "LEGACY_PLANNING",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-D"
+    },
+    {
+      "id": "DIGITALACCESS-HOME-SCHEME",
+      "title": "DigitalAccess@Home",
+      "description": "Provides subsidised broadband and laptops/tablets to lower-income households to support their lifestyle needs, including work and social activities.",
+      "keywords": [
+        "Lower-income",
+        "Subsidies"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/DIGITALACCESS-HOME-SCHEME"
+    },
+    {
+      "id": "DPS_MSF",
+      "title": "Disabled Persons Scheme (DPS)",
+      "description": "Eligible drivers are exempted from paying the premium for the Certificate of Entitlement (COE) and the Additional Registration Fee (ARF) when they purchase a vehicle.",
+      "keywords": [
+        "Employment Support and Vocational Training",
+        "PWDs",
+        "Transport"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/DPS_MSF"
+    },
+    {
+      "id": "SVC-EIPFICE",
+      "title": "Early Intervention Programme for Infants & Children (EIPIC)",
+      "description": "EIPIC is a centre-based programme that provides therapy and educational intervention for children aged 0-6 years who require medium to high levels of early intervention (EI) support.",
+      "keywords": [
+        "Intervention and Therapy",
+        "Referral required"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-EIPFICE"
+    },
+    {
+      "id": "SVC-EIPFIACPEP",
+      "title": "Early Intervention Programme for Infants and Children - P (EIPIC-P)",
+      "description": "EIPIC-P is a programme that provides therapy and educational intervention for children aged 0 to below 7 years who require medium to high levels of early intervention (EI) support.",
+      "keywords": [
+        "Intervention and Therapy",
+        "Referral required"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-EIPFIACPEP"
+    },
+    {
+      "id": "oS6OeT45",
+      "title": "Earned Income Relief",
+      "description": "Provides tax relief for individuals who are gainfully employed or carrying on a trade, business, profession or vocation.",
+      "keywords": [
+        "Employment Support and Vocational Training",
+        "Lower-income",
+        "PWDs"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/oS6OeT45"
+    },
+    {
+      "id": "EDUSAVE-ACC",
+      "title": "Edusave Account",
+      "description": "Provides $230 to $290 annually for approved fees and programmes for every Singapore Citizen child, aged 7 to 16 or studying in a primary or secondary school. Ad-hoc top-ups may be made by the Government to the child’s Edusave account periodically.",
+      "keywords": [
+        "Education",
+        "Students"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/EDUSAVE-ACC"
+    },
+    {
+      "id": "ELDERFUND",
+      "title": "ElderFund",
+      "description": "Discretionary government assistance scheme to support care needs of lower-income Singapore Citizens with severe disability.",
+      "keywords": [
+        "Cash assistance",
+        "Lower-income",
+        "PWDs"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ELDERFUND"
+    },
+    {
+      "id": "ELDERSHIELD",
+      "title": "ElderShield",
+      "description": "Provides basic financial support to Singapore Citizens and Permanent Residents with severe disability, especially during old age and need long-term care.",
+      "keywords": [
+        "Cash assistance",
+        "Health Insurance",
+        "Long-term"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ELDERSHIELD"
+    },
+    {
+      "id": "CEt7UtbF",
+      "title": "Eligible Schemes Enrolment (ESE)",
+      "description": "A streamlined process to apply for several long-term care financial support schemes administered by the Agency for Integrated Care (AIC) at the same time.",
+      "keywords": [
+        "Cash assistance",
+        "Health Insurance",
+        "Long-term"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/CEt7UtbF"
+    },
+    {
+      "id": "s1Mns2Os",
+      "title": "Enabled Living Programme (ELP)",
+      "description": "A community living programme that empowers adults with disabilities to live independently in the community for as long as possible",
+      "keywords": [
+        "PWDs",
+        "Rental flats"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/s1Mns2Os"
+    },
+    {
+      "id": "LPsRp3sD",
+      "title": "Enabling Business Hub",
+      "description": "Developed by SG Enable, Enabling Business Hubs (EBHs) bring training and employment opportunities closer to homes for persons with disabilities through customised job support and inclusive workplace practices.",
+      "keywords": [
+        "Employment Support and Vocational Training",
+        "Jobseekers",
+        "PWDs"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/LPsRp3sD"
+    },
+    {
+      "id": "ETS",
+      "title": "Enabling Transport Subsidy (ETS)",
+      "description": "Supports eligible Singapore Citizens and Permanent Residents with disabilities who need to use dedicated transport provided by the Social Service Agencies (SSAs) to access the Early Intervention Programme for Infants and Children (EIPIC), Special Education (SPED) schools, Day Activity Centres (DACs), Sheltered Workshops (SWs), Special Student Care Centres (SSCCs), Enabling Skills for Life Programme (ESLP), Enabling Business Hubs (EBHs) and Enabling Service Hubs (ESHs).",
+      "keywords": [
+        "Lower-income",
+        "PWDs",
+        "Subsidies"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ETS"
+    },
+    {
+      "id": "ESbwvFrn",
+      "title": "Enhanced Budget 2026 Cost-of-Living Special Payment",
+      "description": "$400 to $600 cash payout for eligible Singaporean adults.",
+      "keywords": [
+        "Budget 2026",
+        "Cash assistance"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ESbwvFrn"
+    },
+    {
+      "id": "9kUw7c5Q",
+      "title": "Enhanced Climate Friendly Households Programme (Climate Vouchers)",
+      "description": "Encourage households to be more efficient in their energy and water consumption by helping to defray the upfront cost of adopting such energy and water-efficient appliances.",
+      "keywords": [
+        "Budget 2025",
+        "Families"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/9kUw7c5Q"
+    },
+    {
+      "id": "ENCPFHG-FAM",
+      "title": "Enhanced CPF Housing Grant (Families)",
+      "description": "Provides up to $120,000 for eligible first-time applicants applying as a family to assist with new or resale flat purchases.",
+      "keywords": [
+        "CPF top-ups",
+        "Families",
+        "Housing grants"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ENCPFHG-FAM"
+    },
+    {
+      "id": "ENCPFHG-SIN",
+      "title": "Enhanced CPF Housing Grant (Singles)",
+      "description": "Provides up to $60,000 in Enhanced CPF Housing Grants (EHG) (Singles) for eligible first-timer applicants buying a new or resale flat on their own, or with their non-resident spouses.",
+      "keywords": [
+        "CPF top-ups",
+        "Housing grants",
+        "Singles"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ENCPFHG-SIN"
+    },
+    {
+      "id": "o0cdiebU",
+      "title": "Enhanced Home Personal Care (HPC+)",
+      "description": "Support frail or homebound seniors who require assistance with activities of daily living, and/or general support with routine tasks in the community.",
+      "keywords": [
+        "Home Care",
+        "Referral required",
+        "Seniors"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/o0cdiebU"
+    },
+    {
+      "id": "EASE",
+      "title": "Enhancement for Active Seniors (EASE)",
+      "description": "Subsidy for Singapore Citizen households with at least one senior who meets age criterion and needs help to install senior-friendly fittings.",
+      "keywords": [
+        "Seniors",
+        "Subsidies"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/EASE"
+    },
+    {
+      "id": "nzWStXJo",
+      "title": "Enhancement for Active Seniors (Private Housing): EASE (Private)",
+      "description": "Provides subsidies to Singapore Citizen seniors living in private properties, for the installation of senior-friendly fittings.",
+      "keywords": [
+        "Seniors",
+        "Subsidies"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/nzWStXJo"
+    },
+    {
+      "id": "QEAKpruj",
+      "title": "Equipment Rental Scheme (ERS)",
+      "description": "Subsidises the rental of essential care equipment for patients with serious illnesses.",
+      "keywords": [
+        "Home healthcare",
+        "Palliative care"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/QEAKpruj"
+    },
+    {
+      "id": "PURCHASE-EC",
+      "title": "Executive Condominiums (ECs)",
+      "description": "Provides a more affordable option to eligible Singaporean households who aspire to own private housing.",
+      "keywords": [
+        "HDB households",
+        "Home ownership"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/PURCHASE-EC"
+    },
+    {
+      "id": "SVC-ELAMPE",
+      "title": "Experiential Learning and Mentoring Programme (ELMP)",
+      "description": "Supports youths through mentoring and, experiential learning. It provides youths with a safe and conducive place to hang out after school and empowers them with pro-social skills and resilience.",
+      "keywords": [
+        "Free",
+        "Mentoring"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-ELAMPE"
+    },
+    {
+      "id": "FAM-PRIORITY",
+      "title": "Family and Parenthood Priority Scheme (FPPS)",
+      "description": "Up to 60% of Sale of Balance Flats (SBF) and up to 40% of Build-To-Order (BTO) flats are made available for eligible first-timer buyers.",
+      "keywords": [
+        "Families",
+        "HDB households",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/FAM-PRIORITY"
+    },
+    {
+      "id": "QlaRQpLF",
+      "title": "Family Care Scheme (FCS) (Joint Balloting)",
+      "description": "Helps parents and their child(ren), married or single, to jointly apply for 2 units in the same Build-To-Order (BTO) project.",
+      "keywords": [
+        "Families",
+        "HDB households"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/QlaRQpLF"
+    },
+    {
+      "id": "MC-PRIORITY",
+      "title": "Family Care Scheme (FCS) (Proximity)",
+      "description": "Helps parents and their child(ren), married or single, to live with or near each other for mutual care and support.",
+      "keywords": [
+        "Families",
+        "HDB households"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/MC-PRIORITY"
+    },
+    {
+      "id": "SVC-FSCF",
+      "title": "Family Service Centre (FSC)",
+      "description": "FSCs provide support for vulnerable individuals and families with social and emotional issues, and work towards stability, self-reliance and social mobility.",
+      "keywords": [
+        "Resources and Support"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "FAMILY_PARENTING",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-FSCF"
+    },
+    {
+      "id": "VcxSSXs5",
+      "title": "Fostering Scheme",
+      "description": "Provides a safe and nurturing family environment for children needing care and protection, offering love, stability, and essentials like food and shelter. Foster families create positive family experiences, demonstrating care and concern, with the aim to reunite children with their birth families once safe to do so.",
+      "keywords": [
+        "Families"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/VcxSSXs5"
+    },
+    {
+      "id": "FRESH-START",
+      "title": "Fresh Start Housing Scheme",
+      "description": "Helps families with children who are currently living in public rental flats to own a 2-room Flexi flat or 3-room flat on a shorter lease.",
+      "keywords": [
+        "Budget 2025",
+        "Home ownership",
+        "Housing grants"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/FRESH-START"
+    },
+    {
+      "id": "bjQYWnuX",
+      "title": "Gift Of A Lifetime Plus (GOAL+)",
+      "description": "Gift Of A Lifetime Plus (GOAL+) aims to provide eligible caregivers of person with disability (PWDs) with an initial capital of $5,000 to set up trust accounts with Special Needs Trust Company Pte Ltd (SNTC). Under GOAL+, the Government sponsors matching donations of up to $10,000 for low- and middle-income families who contribute to the trust account within a five-year window period.",
+      "keywords": [
+        "Caregiving expenses",
+        "PWDs",
+        "Special needs"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/bjQYWnuX"
+    },
+    {
+      "id": "FTNt6bee",
+      "title": "Government Bursaries for Higher Education",
+      "description": "Provides financial assistance for Singapore Citizen students from lower- and middle-income families studying in MOE-subsidised full-time and part-time Nitec, Higher Nitec, diploma and undergraduate courses at publicly funded post-secondary education institutions.",
+      "keywords": [
+        "Education expenses",
+        "Students"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/FTNt6bee"
+    },
+    {
+      "id": "hyKt9lkY",
+      "title": "Government-Paid Adoption Benefit (GPAB)",
+      "description": "Provides up to 12 weeks of Government-paid income for eligible adoptive working mothers who do not qualify for Adoption Leave for Mothers (AL).",
+      "keywords": [
+        "Fees payable",
+        "Paid leave",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/hyKt9lkY"
+    },
+    {
+      "id": "z1YHov1e",
+      "title": "Government-Paid Childcare Leave (GPCL) and Extended Childcare Leave (ECL)",
+      "description": "Provides up to 6 days of leave for eligible working parents and legal guardians with children below 7 years old, and 2 days for those with children aged 7 to 12.",
+      "keywords": [
+        "Child care",
+        "Paid leave",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/z1YHov1e"
+    },
+    {
+      "id": "iq4yqplI",
+      "title": "Government-Paid Maternity Benefit (GPMB)",
+      "description": "Provides up to 16 weeks of income support for eligible working mothers who do not qualify for Government-Paid Maternity Leave.",
+      "keywords": [
+        "Cash assistance",
+        "Child care",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/iq4yqplI"
+    },
+    {
+      "id": "NYD4HRJs",
+      "title": "Government-Paid Maternity Leave (GPML)",
+      "description": "Provides up to 16 weeks of paid leave for eligible working mothers to care for their newborns.",
+      "keywords": [
+        "Child care",
+        "Paid leave",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/NYD4HRJs"
+    },
+    {
+      "id": "yQfF0Pj8",
+      "title": "Government-Paid Paternity Benefit (GPPB)",
+      "description": "Provides up to 4 weeks of income support, for eligible working fathers who do not qualify for Government-Paid Paternity Leave (GPPL).",
+      "keywords": [
+        "Cash assistance",
+        "Child care",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/yQfF0Pj8"
+    },
+    {
+      "id": "qgZZZ5b3",
+      "title": "Government-Paid Paternity Leave (GPPL)",
+      "description": "Provides up to 4 weeks of Government-Paid Paternity Leave (GPPL), for eligible working fathers.",
+      "keywords": [
+        "Paid leave",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/qgZZZ5b3"
+    },
+    {
+      "id": "yYmSnTml",
+      "title": "GRaduate Industry Traineeships (GRIT)",
+      "description": "Equips fresh graduates with experience and skills, easing their transition into full-time employment.",
+      "keywords": [
+        "Employment Support and Vocational Training",
+        "Jobseekers",
+        "Recent graduates"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/yYmSnTml"
+    },
+    {
+      "id": "uX75MUE0",
+      "title": "GRaduate Industry Traineeships @Gov (GRIT@Gov)",
+      "description": "Equips fresh graduates with experience and skills, easing their transition into full-time employment.",
+      "keywords": [
+        "Employment Support and Vocational Training",
+        "Jobseekers",
+        "Recent graduates"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/uX75MUE0"
+    },
+    {
+      "id": "cVyhpH3s",
+      "title": "Grandparent Caregiver Relief (GCR)",
+      "description": "Provides tax relief of up to $3,000 to working mothers who engage their parents, grandparents, parents-in-law or grandparents-in-law as caregivers for their children.",
+      "keywords": [
+        "Caregiver support",
+        "Tax relief"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/cVyhpH3s"
+    },
+    {
+      "id": "34sPdG1b",
+      "title": "grovve",
+      "description": "An integrated, youth-centric wellness centre offering a safe space where young people aged 12 to 25 can seek mental health support.",
+      "keywords": [
+        "Resources and Support",
+        "Social-emotional Support",
+        "Students"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "COUNSELLING_CRISIS",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/34sPdG1b"
+    },
+    {
+      "id": "GSTV-CASH",
+      "title": "GST Voucher (GSTV) – Cash",
+      "description": "Enhanced cash payouts up to $850 from 2024, to help lower-income Singaporeans, residing in Singapore, with their daily living expenses.",
+      "keywords": [
+        "Budget 2023",
+        "Cash assistance",
+        "Lower-income"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/GSTV-CASH"
+    },
+    {
+      "id": "GSTV-MEDISAVE",
+      "title": "GST Voucher (GSTV) – MediSave",
+      "description": "MediSave top-up of up to $450 for Singapore Citizens aged 65 and above, residing in Singapore.",
+      "keywords": [
+        "Budget 2023",
+        "CPF top-ups",
+        "Seniors"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/GSTV-MEDISAVE"
+    },
+    {
+      "id": "SVC-HS",
+      "title": "Halogen SPARK!",
+      "description": "A structured evidence-based entrepreneurship curriculum that targets Secondary 3 students who are from the G1/G2 Subject Based Banding (SBB) Stream that improves better school-focused outcomes, including their attendance and academic performance.",
+      "keywords": [
+        "Referral required"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-HS"
+    },
+    {
+      "id": "SVC-HDSSPIII",
+      "title": "HCSA SPIN",
+      "description": "SPIN supports single parents and lone caregivers through casework and counselling, social support network such as befriending, practical support and an online portal of information and resources.",
+      "keywords": [
+        "Free",
+        "Resources and Support"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-HDSSPIII"
+    },
+    {
+      "id": "HEALTHIERSG",
+      "title": "Healthier SG",
+      "description": "A national strategy focused on preventive care to empower individuals to take steps toward better health, with the support of their Healthier SG clinic and community partners.",
+      "keywords": [
+        "Health screenings",
+        "Subsidies",
+        "Vaccination"
+      ],
+      "domains": [
+        "DOMAIN_177",
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/HEALTHIERSG"
+    },
+    {
+      "id": "HEALTHY365",
+      "title": "Healthy 365",
+      "description": "Healthy 365 is a mobile application that helps resident to discover and access healthy lifestyle offerings that will help them to achieve their health goals.",
+      "keywords": [
+        "Resources and Support"
+      ],
+      "domains": [
+        "DOMAIN_177",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/HEALTHY365"
+    },
+    {
+      "id": "zrAAc6BN",
+      "title": "Healthy with KIDSTART",
+      "description": "Support lower income families with Singapore Citizen children aged up to 6 years old with fresh produce packs.",
+      "keywords": [
+        "Free"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "COUNSELLING_CRISIS",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/zrAAc6BN"
+    },
+    {
+      "id": "HCG",
+      "title": "Home Caregiving Grant (HCG)",
+      "description": "Provides financial support to help with caregiving expenses for households caring for persons with moderate to severe disabilities.",
+      "keywords": [
+        "Caregiving expenses",
+        "Cash assistance",
+        "PWDs"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/HCG"
+    },
+    {
+      "id": "SVC-HM",
+      "title": "Home Medical",
+      "description": "Check-ups, prescriptions and consultations by a doctor for seniors who are not able to leave their homes.",
+      "keywords": [
+        "Home Care",
+        "Referral required"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-HM"
+    },
+    {
+      "id": "SVC-HN",
+      "title": "Home Nursing",
+      "description": "Nursing services provided at home for seniors who are unable to leave their homes.",
+      "keywords": [
+        "Home Care",
+        "Referral required"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-HN"
+    },
+    {
+      "id": "SVC-PHC",
+      "title": "Home Palliative Care",
+      "description": "Support caregivers in caring for patients with life-limiting illnesses at home.",
+      "keywords": [
+        "Caregiver support",
+        "Referral required"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-PHC"
+    },
+    {
+      "id": "SVC-HPCSH",
+      "title": "Home Personal Care (HPC)",
+      "description": "Supports frail or homebound seniors who require help with activities of daily living and/or housekeeping.",
+      "keywords": [
+        "Home Care",
+        "Referral required"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-HPCSH"
+    },
+    {
+      "id": "HPS",
+      "title": "Home Protection Scheme (HPS)",
+      "description": "Mortgage-reducing insurance that protects you and your loved ones from losing your Housing and Development Board (HDB) flat in the event of death, terminal illness, or total permanent disability.",
+      "keywords": [
+        "Insurance",
+        "PWDs"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/HPS"
+    },
+    {
+      "id": "SVC-HT",
+      "title": "Home Therapy",
+      "description": "Therapy sessions at home to help seniors regain their ability to carry out daily activities.",
+      "keywords": [
+        "Home Care",
+        "Referral required"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-HT"
+    },
+    {
+      "id": "zQnhRFwq",
+      "title": "Hospital-to-Work Transition Programme",
+      "description": "Provides case management, rehabilitation and employment support for persons with acquired disability from accidents or medical conditions who are looking to return to work.",
+      "keywords": [
+        "Employment Support and Vocational Training",
+        "Jobseekers",
+        "PWDs"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "MENTAL_HEALTH",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/zQnhRFwq"
+    },
+    {
+      "id": "gXSeAhba",
+      "title": "Housing Loan from Financial Institutions (FI)",
+      "description": "Supports your flat purchase through housing loans from Financial Institutions (FI) regulated by the Monetary Authority of Singapore.",
+      "keywords": [
+        "HDB households",
+        "Home ownership"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/gXSeAhba"
+    },
+    {
+      "id": "HOUSEL-HDB",
+      "title": "Housing Loan from HDB",
+      "description": "Provides eligible buyers with financing via housing loan to purchase or take over ownership of a HDB flat.",
+      "keywords": [
+        "HDB households",
+        "Home ownership"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/HOUSEL-HDB"
+    },
+    {
+      "id": "IwOX3hng",
+      "title": "Housing Subsidy - Citizen Top-Up",
+      "description": "Provides a $10,000 housing subsidy for eligible Singapore Citizen/ Permanent Resident households when a family member becomes a Singapore Citizen.",
+      "keywords": [
+        "CPF top-ups",
+        "Home ownership",
+        "Housing grants"
+      ],
+      "domains": [
+        "CITIZENSHIP_RESIDENCY",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/IwOX3hng"
+    },
+    {
+      "id": "lFdUZ4N8",
+      "title": "IHL Internship Programme",
+      "description": "The SG Enable IHL Internship Programme matches students with disabilities to internships offered by inclusive organisations in various sectors based on their course of study, interests and preferences. Students will learn in a real work environment, build up their professional networks, and gain practical job-related knowledge and skills.",
+      "keywords": [
+        "Employment Support and Vocational Training",
+        "Jobseekers",
+        "PWDs"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "EDUCATION_LEARNING",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/lFdUZ4N8"
+    },
+    {
+      "id": "INFANT-CHILD-CARE",
+      "title": "Infant and Childcare Subsidies",
+      "description": "Provides tiered subsidies to help cover infant care and childcare fees for Singapore Citizen children from different income backgrounds.",
+      "keywords": [
+        "Child care",
+        "Infant care",
+        "Subsidies"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/INFANT-CHILD-CARE"
+    },
+    {
+      "id": "SVC-IHPCS",
+      "title": "Inpatient Hospice Palliative Care Service (IHPCS)",
+      "description": "Supports end-of-life patients who cannot be cared for at home and require inpatient care.",
+      "keywords": [
+        "Palliative care",
+        "Referral required"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-IHPCS"
+    },
+    {
+      "id": "D3cZDpbD",
+      "title": "Integrated Shield Plan (IP)",
+      "description": "A private medical insurance plan, offered by private insurers, that provides optional additional coverage on top of what you are already covered for under MediShield Life.",
+      "keywords": [
+        "Health Insurance"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/D3cZDpbD"
+    },
+    {
+      "id": "IDAPE",
+      "title": "Interim Disability Assistance Scheme for the Elderly (IDAPE)",
+      "description": "Provides monthly cash payout for elderly Singapore Citizens with severe disabilities who are not eligible for ElderShield.",
+      "keywords": [
+        "Cash assistance",
+        "PWDs",
+        "Seniors"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/IDAPE"
+    },
+    {
+      "id": "MFAS",
+      "title": "ITE Monthly Financial Assistance Scheme (MFAS)",
+      "description": "Provides a monthly allowance to full-time Singaporean students from lower-income households who need regular financial assistance for daily expenses.",
+      "keywords": [
+        "Cash assistance",
+        "Students"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/MFAS"
+    },
+    {
+      "id": "SSAS",
+      "title": "ITE Special Student Assistance Scheme (SSAS)",
+      "description": "One-off financial assistance to help students tide over short-term financial difficulties.",
+      "keywords": [
+        "Cash assistance",
+        "Students"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SSAS"
+    },
+    {
+      "id": "ejdrPN9A",
+      "title": "Job Placement and Job Support",
+      "description": "Provides persons with disabilities employment assistance through job matching and job coaching for up to 12 months.",
+      "keywords": [
+        "Employment Support and Vocational Training",
+        "Jobseekers",
+        "PWDs"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ejdrPN9A"
+    },
+    {
+      "id": "KIDSTART",
+      "title": "KidSTART",
+      "description": "Supports pregnant mothers and lower-income families in early childhood development, to build strong foundations for children aged 6 and below.",
+      "keywords": [
+        "Free",
+        "Lower-income",
+        "Resources and Support"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/KIDSTART"
+    },
+    {
+      "id": "KIFAS",
+      "title": "Kindergarten Fee Assistance Scheme (KiFAS) and KiFAS Startup Grant (SUG)",
+      "description": "Provides subsidies for kindergarten programmes to ensure affordability for low and middle-income Singapore Citizen families, along with an annual KiFAS Start-Up Grant (SUG) to assist low-income families with initial costs.",
+      "keywords": [
+        "Budget 2026",
+        "Kindergarten",
+        "Subsidies"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/KIFAS"
+    },
+    {
+      "id": "Q1UpgN0i",
+      "title": "Large Families Scheme",
+      "description": "Provides more support for Singaporean families who have three or more children.",
+      "keywords": [
+        "Budget 2025",
+        "Families",
+        "Parents"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/Q1UpgN0i"
+    },
+    {
+      "id": "SVC-LPA",
+      "title": "Lasting Power of Attorney (LPA)",
+      "description": "A legal document that allows you (the 'Donor') to appoint one or more trusted persons (the 'Donee') to  make decisions on your behalf in the event you lose mental capacity.",
+      "keywords": [
+        "Advance Care Planning",
+        "Fees payable"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "LEGACY_PLANNING",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-LPA"
+    },
+    {
+      "id": "LEASE_BUYBACK",
+      "title": "Lease Buyback Scheme",
+      "description": "Provides seniors with a steady stream of retirement income when they sell the tail-end of their flat lease to HDB while they continue to occupy the flat for the lease they retained.",
+      "keywords": [
+        "CPF payouts",
+        "Seniors"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "DOMAIN_178",
+        "HOUSING_SHELTERS",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/LEASE_BUYBACK"
+    },
+    {
+      "id": "dGlR81dt",
+      "title": "Legal Aid Bureau",
+      "description": "Provides legal help for eligible individuals in various civil proceedings.",
+      "keywords": [
+        "Marital and Divorce Support"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/dGlR81dt"
+    },
+    {
+      "id": "cVkNdnyT",
+      "title": "Life Insurance Relief",
+      "description": "Provides tax relief of up to $5,000 for individuals who paid annual insurance premiums on their own life insurance policies.",
+      "keywords": [
+        "Insurance",
+        "Tax relief"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/cVkNdnyT"
+    },
+    {
+      "id": "ngaAPNbH",
+      "title": "Life! Mentors",
+      "description": "A 5-8 year mentoring programme that supports children (6-13 years old) a fair chance to succeed in life.",
+      "keywords": [
+        "Education",
+        "Mentoring"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "HEALTHCARE",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ngaAPNbH"
+    },
+    {
+      "id": "SVC-LOBTCS",
+      "title": "Live On!",
+      "description": "Year-long, family-centric psychological intervention for youths with high suicide risk as they transit from hospitalisation into the community.",
+      "keywords": [
+        "Free",
+        "Referral required",
+        "Suicide Intervention"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "FAMILY_PARENTING",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-LOBTCS"
+    },
+    {
+      "id": "LWAWP",
+      "title": "Live Well, Age Well Programme",
+      "description": "The Live Well, Age Well programme is co-organised by HPB and PA to provide holistic activities to improve the physical, mental and social health of adults aged 50 and above.",
+      "keywords": [
+        "Resources and Support"
+      ],
+      "domains": [
+        "DOMAIN_177",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/LWAWP"
+    },
+    {
+      "id": "L4IhetvC",
+      "title": "Lively Places Fund",
+      "description": "Provides funding of up to $20,000 for community-driven projects that enhance public spaces and foster community bonds.",
+      "keywords": [
+        "Volunteers"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/L4IhetvC"
+    },
+    {
+      "id": "Sucth2ke",
+      "title": "Long-Term Care Subsidies",
+      "description": "Provides means-tested subsidies for long-term care services by MOH-funded long-term care providers.",
+      "keywords": [
+        "Budget 2025",
+        "Seniors",
+        "Subsidies"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/Sucth2ke"
+    },
+    {
+      "id": "SVC-MDCC",
+      "title": "Maintenance Day Care Centre",
+      "description": "Full day programme of engaging activities, exercises and personal care for seniors at day care centres.",
+      "keywords": [
+        "Day Care",
+        "Referral required",
+        "Subsidies"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-MDCC"
+    },
+    {
+      "id": "SVC-MSCM",
+      "title": "Maintenance Support Central (MSC)",
+      "description": "Provides support and assistance for clients who have difficulty in receiving spousal and/or child maintenance.",
+      "keywords": [
+        "Free"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-MSCM"
+    },
+    {
+      "id": "MP-ESB",
+      "title": "Majulah Package – Earn and Save Bonus",
+      "description": "Supplements eligible working seniors' retirement savings through an annual Earn and Save Bonus credited to their CPF account.",
+      "keywords": [
+        "Budget 2024",
+        "CPF payouts",
+        "Lower-mid income"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/MP-ESB"
+    },
+    {
+      "id": "MP-MSB",
+      "title": "Majulah Package – MediSave Bonus",
+      "description": "Supplements medical savings of seniors through one-off CPF bonus.",
+      "keywords": [
+        "Budget 2024",
+        "CPF payouts",
+        "Medical bills"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/MP-MSB"
+    },
+    {
+      "id": "MP-RSB",
+      "title": "Majulah Package – Retirement Savings Bonus",
+      "description": "One-off bonus for seniors with CPF retirement savings below the 2023 Basic Retirement Sum.",
+      "keywords": [
+        "Budget 2024",
+        "CPF payouts"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/MP-RSB"
+    },
+    {
+      "id": "SVC-EMSEFMAYMC",
+      "title": "Marriage Preparation Programme for Minor and Young Muslim Couples",
+      "description": "Provides pre- and post-marriage support for minor and young couples.",
+      "keywords": [
+        "Free",
+        "Marital and Divorce Support"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-EMSEFMAYMC"
+    },
+    {
+      "id": "LrEfS3Nx",
+      "title": "Matched MediSave Scheme",
+      "description": "Helps eligible Singapore Citizens to strengthen MediSave adequacy by matching cash top-ups made to their MediSave Accounts (MA).",
+      "keywords": [
+        "Budget 2025",
+        "Medical bills",
+        "Seniors"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/LrEfS3Nx"
+    },
+    {
+      "id": "FcwgSMsK",
+      "title": "Matched Retirement Savings Scheme",
+      "description": "Helps eligible Singaporeans with lower retirement savings to save more by matching cash top-ups made to their Retirement or Special Accounts (RA/SA). This will boost their monthly payouts in retirement.",
+      "keywords": [
+        "Budget 2025",
+        "CPF top-ups"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "DOMAIN_178",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/FcwgSMsK"
+    },
+    {
+      "id": "SVC-MOWM",
+      "title": "Meals on Wheels (MOW)",
+      "description": "Meal deliveries for homebound clients who are unable to buy and prepare their own meals and do not have a caregiver to help them to do so.",
+      "keywords": [
+        "Home Care",
+        "Referral required"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-MOWM"
+    },
+    {
+      "id": "SVC-MEATM",
+      "title": "Medical Escort and Transport (MET)",
+      "description": "For seniors who need help going for medical appointments.",
+      "keywords": [
+        "Referral required",
+        "Transport"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-MEATM"
+    },
+    {
+      "id": "DAL4e5J1",
+      "title": "Medical Fee Exemption Card (MFEC)",
+      "description": "Subsidised standard medical treatment for needy residents at approved stay-in care institutions.",
+      "keywords": [
+        "Counselling",
+        "Intervention and Therapy",
+        "Social-emotional Support"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "HEALTHCARE",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/DAL4e5J1"
+    },
+    {
+      "id": "MEDIFUND",
+      "title": "MediFund",
+      "description": "For Singaporeans who face difficulties with remaining medical bills after receiving government subsidies and other means of payment.",
+      "keywords": [
+        "Cash assistance",
+        "Lower-income",
+        "Medical bills"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/MEDIFUND"
+    },
+    {
+      "id": "MEDISAVE",
+      "title": "MediSave",
+      "description": "A personal healthcare savings account that helps you pay for you and loved ones' healthcare expenses over your lifetime, especially when you retire and no longer have regular income.",
+      "keywords": [
+        "CPF",
+        "Medical bills"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/MEDISAVE"
+    },
+    {
+      "id": "MEDISAVE_CARE",
+      "title": "MediSave Care",
+      "description": "Allows Singapore Citizens and Permanent Residents with severe disability to make monthly cash withdrawals from their and/or their spouse’s MediSave Account for long-term care.",
+      "keywords": [
+        "Cash payouts",
+        "Long-term care",
+        "Severely disabled"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/MEDISAVE_CARE"
+    },
+    {
+      "id": "QDc9ihgy",
+      "title": "MediSave for Assisted Conception Procedures",
+      "description": "Allows eligible couples to withdraw up to $15,000 per patient from MediSave to pay for Assisted Conception Procedures (ACP) that aid them in conceiving.",
+      "keywords": [
+        "Families",
+        "Medical bills",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/QDc9ihgy"
+    },
+    {
+      "id": "dKO0Ow30",
+      "title": "MediSave Grant for Newborns (MGN)",
+      "description": "All Singapore Citizen newborns are eligible for the MediSave Grant for Newborns (MGN) of up to $5,000.",
+      "keywords": [
+        "Families",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/dKO0Ow30"
+    },
+    {
+      "id": "myy0wYU5",
+      "title": "MediSave Maternity Package",
+      "description": "Enables applicants to claim up to $3,670 for pre-delivery medical expenses and baby delivery expenses from MediSave.",
+      "keywords": [
+        "Families",
+        "Medical bills",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/myy0wYU5"
+    },
+    {
+      "id": "MEDISHIELD",
+      "title": "MediShield Life",
+      "description": "A basic health insurance plan managed by the CPF Board to help pay for large hospital bills and selected outpatient treatments.",
+      "keywords": [
+        "CPF",
+        "Health Insurance",
+        "Medical bills"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/MEDISHIELD"
+    },
+    {
+      "id": "DKTZwVPL",
+      "title": "MediShield Life Premium Subsidies",
+      "description": "To keep MediShield Life premiums affordable, the Government provides several premium support measures, such as Premium Subsidies, Pioneer Generation Subsidies and Merdeka Generation Subsidies.",
+      "keywords": [
+        "Health Insurance",
+        "Lower-mid income",
+        "Subsidies"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/DKTZwVPL"
+    },
+    {
+      "id": "lceYNjsb",
+      "title": "Merdeka Generation Package",
+      "description": "Supporting Merdeka Generation seniors in their silver years by helping them to stay active, healthy and providing peace of mind over future healthcare costs.",
+      "keywords": [
+        "Seniors",
+        "Subsidies"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/lceYNjsb"
+    },
+    {
+      "id": "SGUP-CA",
+      "title": "Mid-Career Pathways Programme (MCPP)",
+      "description": "A full-time attachment programme for mature, mid-career individuals seeking a career switch. Applicants are attached to a host organisation for 4-6 months to gain industry-relevant skills and experience.",
+      "keywords": [
+        "Budget 2022",
+        "Mid-career"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SGUP-CA"
+    },
+    {
+      "id": "SVC-MFCM",
+      "title": "MightyKids, Families & Community (MightyKFC)",
+      "description": "MightyKFC is a developmental mentoring programme that aims to nurture at-risk children and youth in the Telok Blangah region.",
+      "keywords": [
+        "Free"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "MENTAL_HEALTH",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-MFCM"
+    },
+    {
+      "id": "MDW_LEVY_CONCESSION",
+      "title": "Migrant Domestic Worker Levy Concession",
+      "description": "Provides concessionary levy at $60 per month if there is an eligible person residing in the household.",
+      "keywords": [
+        "Caregiving expenses",
+        "Subsidies"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/MDW_LEVY_CONCESSION"
+    },
+    {
+      "id": "MOBILE-ACCESS-SENIORS",
+      "title": "Mobile Access for Seniors (MAS)",
+      "description": "Provides subsidised smartphone and mobile plans to lower-income seniors who want to go digital but cannot afford them.",
+      "keywords": [
+        "Lower-income",
+        "Seniors",
+        "Subsidies"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/MOBILE-ACCESS-SENIORS"
+    },
+    {
+      "id": "MOE-FAS",
+      "title": "MOE Financial Assistance Scheme (MOE FAS)",
+      "description": "Provides financial assistance to lower-income families with children who are in Government and Government-Aided Schools and Specialised Schools.",
+      "keywords": [
+        "Education expenses",
+        "Students"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/MOE-FAS"
+    },
+    {
+      "id": "jduPoSEk",
+      "title": "MOE Higher Education Student Loan (HESL) Scheme",
+      "description": "Loan scheme to help students who are taking MOE-subsidised diploma, undergraduate or postgraduate programmes in publicly-funded post-secondary education institutions to finance their tuition fees and borrow a living allowance loan for other education-related expenses. It also helps undergraduates to finance cost of institution-approved overseas student programme.",
+      "keywords": [
+        "Education expenses",
+        "Students"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/jduPoSEk"
+    },
+    {
+      "id": "ByVdAY7f",
+      "title": "MOE Independent School Bursary (ISB)",
+      "description": "Provides financial assistance to lower- and middle-income families with children who are in Independent Schools and some Specialised Independent Schools.",
+      "keywords": [
+        "Education",
+        "Lower-mid income",
+        "Subsidies"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ByVdAY7f"
+    },
+    {
+      "id": "MUIS-FAS",
+      "title": "MUIS Zakat Financial Assistance",
+      "description": "Provides monthly financial assistance and support in other forms to eligible low-income Muslim households.",
+      "keywords": [
+        "Lower-income",
+        "Resources and Support"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "DOMAIN_178"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/MUIS-FAS"
+    },
+    {
+      "id": "SVC-ML",
+      "title": "My Legacy",
+      "description": "Plan, store and share your legal, healthcare and estate matters securely with people you trust.",
+      "keywords": [
+        "Advance Care Planning"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "LEGACY_PLANNING",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-ML"
+    },
+    {
+      "id": "NSLSG-CREDIT",
+      "title": "National Service LifeSG Credits",
+      "description": "$200 in LifeSG credits for all eligible past and present national servicemen to recognise their contributions to Singapore’s defence and security.",
+      "keywords": [
+        "Budget 2024",
+        "NSFs",
+        "NSmen"
+      ],
+      "domains": [
+        "CITIZENSHIP_RESIDENCY",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/NSLSG-CREDIT"
+    },
+    {
+      "id": "NATIONAL_SILVER_ACADEMY",
+      "title": "National Silver Academy",
+      "description": "Offers learning opportunities, short-term courses and programmes for seniors.",
+      "keywords": [
+        "Courses",
+        "Seniors",
+        "Trainings"
+      ],
+      "domains": [
+        "DOMAIN_177",
+        "EDUCATION_LEARNING",
+        "HEALTHCARE",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/NATIONAL_SILVER_ACADEMY"
+    },
+    {
+      "id": "PgRdvYbQ",
+      "title": "NSman Relief",
+      "description": "Provides tax relief to eligible operationally ready National Servicemen (NSmen) to recognise their contributions to National Service, as well as to the wives and parents of NSmen to recognise the support they give to their husbands or sons.",
+      "keywords": [
+        "Tax relief"
+      ],
+      "domains": [
+        "CITIZENSHIP_RESIDENCY",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/PgRdvYbQ"
+    },
+    {
+      "id": "SVC-NH",
+      "title": "Nursing Home",
+      "description": "A long-term residential care facility for seniors who have limited or no caregiver support and require assistance with daily nursing and living needs.",
+      "keywords": [
+        "Caregiver support",
+        "Referral required"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-NH"
+    },
+    {
+      "id": "SVC-NHRC",
+      "title": "Nursing Home Respite Care",
+      "description": "Short-term residential care option to provide respite for caregivers of seniors with high care needs.",
+      "keywords": [
+        "Caregiver support",
+        "Referral required"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-NHRC"
+    },
+    {
+      "id": "ZHDOAsEu",
+      "title": "OnePA CC Courses",
+      "description": "Provide opportunities for residents to pick up new skills and interests through courses offered at Community Centres/Clubs (CCs) and Residents’ Networks (RNs).",
+      "keywords": [
+        "Courses",
+        "Fees payable"
+      ],
+      "domains": [
+        "DOMAIN_177",
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "HEALTHCARE",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ZHDOAsEu"
+    },
+    {
+      "id": "f4VjU9VH",
+      "title": "Our Lives Our Voices (OLOV)",
+      "description": "OLOV aims to empower clients to become self-advocates and foster an inclusive society where PWIDs can independently participate in the community in a meaningful manner. Through personalised training and peer support, it builds confidence and independence.",
+      "keywords": [
+        "Education"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "EDUCATION_LEARNING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/f4VjU9VH"
+    },
+    {
+      "id": "gyDNuWnW",
+      "title": "PA Community Programmes and Events",
+      "description": "Provides one-stop access to a diverse range of community programmes and events organised by the People's Association.",
+      "keywords": [
+        "Courses",
+        "Families"
+      ],
+      "domains": [
+        "DOMAIN_177",
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/gyDNuWnW"
+    },
+    {
+      "id": "TAX_RELIEF_CAREGIVERS_DISABLED",
+      "title": "Parent Relief/Parent Relief (Disability)",
+      "description": "Provides tax relief of up to $14,000 per dependant, to recognise individuals supporting their parents, grandparents, parents-in-law or grandparents-in-law in Singapore.",
+      "keywords": [
+        "Caregiver support",
+        "Tax relief"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/TAX_RELIEF_CAREGIVERS_DISABLED"
+    },
+    {
+      "id": "PPHS",
+      "title": "Parenthood Provisional Housing Scheme (PPHS)",
+      "description": "Provides temporary housing for families as they await the completion of their new flats.",
+      "keywords": [
+        "Families",
+        "Subsidies",
+        "Temporary housing"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/PPHS"
+    },
+    {
+      "id": "N8hHgjb3",
+      "title": "Parenthood Tax Rebate (PTR)",
+      "description": "Provides a one-off tax rebate of up to $20,000 per child to eligible parents to encourage them to have more children.",
+      "keywords": [
+        "Families",
+        "Tax relief"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/N8hHgjb3"
+    },
+    {
+      "id": "705gVCXW",
+      "title": "PAssion Card",
+      "description": "A membership programme that allows its members to enjoy great discounts on courses and activities available at all Community Clubs and other PA outlets such as PAssion Wave. Members can also enjoy exclusive discounts at more than 2,000 participating PAssion Merchant outlets.",
+      "keywords": [
+        "Public transport",
+        "Rebates"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/705gVCXW"
+    },
+    {
+      "id": "PWD-CONCESSION",
+      "title": "Persons with Disabilities Concession Card (PWDCC)",
+      "description": "Provides persons with disabilities with concessionary rates for travel on public transport.",
+      "keywords": [
+        "Public transport",
+        "PWDs"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/PWD-CONCESSION"
+    },
+    {
+      "id": "PIONEER-DAS",
+      "title": "Pioneer Generation Disability Assistance Scheme (PioneerDAS)",
+      "description": "Provides Pioneers with moderate or severe functional disabilities with cash assistance for everyday expenses.",
+      "keywords": [
+        "Cash assistance",
+        "Pioneer generation",
+        "PWDs"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/PIONEER-DAS"
+    },
+    {
+      "id": "n4iFaG9r",
+      "title": "Pioneer Generation Package",
+      "description": "Special recognition to our Pioneer Generation through a package that assures them of affordable healthcare.",
+      "keywords": [
+        "Pioneer generation",
+        "Seniors",
+        "Subsidies"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/n4iFaG9r"
+    },
+    {
+      "id": "PCTS",
+      "title": "Platform Workers CPF Transition Support (PCTS)",
+      "description": "From 2025 to 2028, the Platform Workers CPF Transition Support (PCTS) scheme provides monthly cash payments to support eligible lower-income platform workers who make increased CPF Ordinary and Special/Retirement Account contributions.",
+      "keywords": [
+        "CPF",
+        "Platform Workers"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/PCTS"
+    },
+    {
+      "id": "2TFgSkxq",
+      "title": "Post-Secondary Education Account (PSEA)",
+      "description": "Provides educational financial support for eligible Singapore Citizens' post-secondary education.",
+      "keywords": [
+        "Education",
+        "Education expenses",
+        "Students"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/2TFgSkxq"
+    },
+    {
+      "id": "FTPMC-CAT",
+      "title": "Priority Scheme - First-Timer (Parents & Married Couples), FT(PMC) Category",
+      "description": "To help young families settle down more quickly, additional support will be provided for applicants who qualify for the FT(PMC) category.",
+      "keywords": [
+        "HDB households",
+        "Homes"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/FTPMC-CAT"
+    },
+    {
+      "id": "PDDS",
+      "title": "Professional Deputies and Donees Scheme",
+      "description": "The scheme serves individuals who may not have suitable family members or friends to appoint as their proxy decision makers. Professionals may be appointed as proxy decision makers for these individuals for remuneration.",
+      "keywords": [
+        "Advance Care Planning",
+        "Mental incapacity"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "LEGACY_PLANNING",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/PDDS"
+    },
+    {
+      "id": "SVC-FVSCF",
+      "title": "Protection Specialist Centre (PSC)",
+      "description": "Provides services for individuals and families experiencing family violence, intimate partner violence or sexual violence.",
+      "keywords": [
+        "Abuse, neglect & violence",
+        "Free"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "FAMILY_PARENTING",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-FVSCF"
+    },
+    {
+      "id": "PHG-FAMILIES",
+      "title": "Proximity Housing Grant (Families)",
+      "description": "Provides up to $30,000 for families buying a resale flat to live with or near parents or children.",
+      "keywords": [
+        "Families",
+        "Home ownership",
+        "Housing grants"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/PHG-FAMILIES"
+    },
+    {
+      "id": "PHG-SINGLES",
+      "title": "Proximity Housing Grant (Singles)",
+      "description": "Provides up to $15,000 for eligible singles buying a resale flat to live with, or near, their parents or children.",
+      "keywords": [
+        "Home ownership",
+        "Housing grants",
+        "Singles"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/PHG-SINGLES"
+    },
+    {
+      "id": "PUBLICRENTAL-FAMILY",
+      "title": "Public Rental Scheme - Family Scheme",
+      "description": "Provides heavily subsidised rental flats for Singaporean households with no other housing options and no family support.",
+      "keywords": [
+        "Families",
+        "Rental flats"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/PUBLICRENTAL-FAMILY"
+    },
+    {
+      "id": "XPg2wTUs",
+      "title": "Qualifying Child Relief (QCR)/Child Relief (Disability)",
+      "description": "Provides tax relief to parents to recognise their efforts in supporting their children.",
+      "keywords": [
+        "Dependents",
+        "Special education",
+        "Tax relief"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/XPg2wTUs"
+    },
+    {
+      "id": "SVC-RASP",
+      "title": "Remarriage Preparation Programme for Muslim Couples",
+      "description": "Provides pre- and post-marriage support for remarrying couples.",
+      "keywords": [
+        "Free",
+        "Marital and Divorce Support"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-RASP"
+    },
+    {
+      "id": "VSj0VliA",
+      "title": "Retirement Sum Topping-Up Scheme",
+      "description": "Boost your own or loved ones’ retirement savings and payouts through voluntary cash top-ups or CPF transfer to your own or loved ones' Special Account (SA) or Retirement Account (RA).",
+      "keywords": [
+        "CPF top-ups",
+        "Tax relief"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "DOMAIN_178",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/VSj0VliA"
+    },
+    {
+      "id": "a0ctwtOS",
+      "title": "Safe Place",
+      "description": "Programme aims to empower women and their families with unsupported pregnancies to make informed and life-giving choices.",
+      "keywords": [
+        "Free"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "FAMILY_PARENTING",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/a0ctwtOS"
+    },
+    {
+      "id": "SVC-SY",
+      "title": "SAMH Youthreach",
+      "description": "Provides psychosocial support and recovery programmes for youths aged 13 to 21 with emotional, psychological and psychiatric issues in the community.",
+      "keywords": [
+        "Counselling",
+        "Free",
+        "Referral required"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "COUNSELLING_CRISIS",
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-SY"
+    },
+    {
+      "id": "SMF",
+      "title": "Seniors' Mobility and Enabling Fund",
+      "description": "Provides subsidies to seniors for mobility and assistive devices or home healthcare items.",
+      "keywords": [
+        "Assistive devices",
+        "Home healthcare",
+        "Seniors"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SMF"
+    },
+    {
+      "id": "SCCR",
+      "title": "Service and Conservancy Charges (S&CC) Rebate",
+      "description": "Quarterly rebates to offset S&CC fees for HDB households. Eligible households will receive 1.5 to 3.5 months of the GST Voucher (GSTV) – S&CC Rebate.",
+      "keywords": [
+        "Budget 2024",
+        "HDB households",
+        "Rebates"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SCCR"
+    },
+    {
+      "id": "P3m8eAvW",
+      "title": "Settling Outstanding Tax Matters and Bills for a Deceased Person",
+      "description": "Enables executors or administrators to settle the deceased's taxes and outstanding debts using the estate's funds before distribution to beneficiaries.",
+      "keywords": [
+        "Resources and Support"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/P3m8eAvW"
+    },
+    {
+      "id": "SDA",
+      "title": "Severe Disability Assessment (SDA)",
+      "description": "Provides an assessment of your disability status conducted by a Ministry of Health (MOH)-accredited severe disability assessor.",
+      "keywords": [
+        "Caregiver support",
+        "PWDs"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SDA"
+    },
+    {
+      "id": "ckLFmJ4I",
+      "title": "SG Culture Pass",
+      "description": "$100 credits to offset ticket purchases for eligible cultural offerings in support and celebration of local arts and heritage activities.",
+      "keywords": [
+        "Arts and heritage",
+        "Budget 2025"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "HEALTHCARE"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/ckLFmJ4I"
+    },
+    {
+      "id": "BX7Se4Pg",
+      "title": "SG60 Vouchers",
+      "description": "For all Singaporean adults in recognition of their contributions to the nation and to share the gains of Singapore's progress during SG60.",
+      "keywords": [
+        "Budget 2025",
+        "SG60"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/BX7Se4Pg"
+    },
+    {
+      "id": "webPUlth",
+      "title": "Shared Parental Leave  (SPL)",
+      "description": "Support eligible working parents in sharing parental responsibility and caring for their infants.",
+      "keywords": [
+        "Paid leave",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/webPUlth"
+    },
+    {
+      "id": "JJxxRnDK",
+      "title": "Shared Parental Leave Benefit (SPB)",
+      "description": "Support eligible working parents who do not qualify for the Shared Parental Leave (SPL) scheme due to their employment arrangements.",
+      "keywords": [
+        "Paid leave",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/JJxxRnDK"
+    },
+    {
+      "id": "7gjb1DT2",
+      "title": "Shared Stay-in Senior Caregiving Services (Stay-in SCS)",
+      "description": "Shared caregiving services for seniors living together in a shared residence.",
+      "keywords": [
+        "Care in centre",
+        "Seniors"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/7gjb1DT2"
+    },
+    {
+      "id": "SVC-SW",
+      "title": "Sheltered Workshops",
+      "description": "Sheltered Workshops offer employment and/or vocational training to adults with disabilities who do not possess the competencies or skills for open employment.",
+      "keywords": [
+        "Employment Support and Vocational Training",
+        "Referral required"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-SW"
+    },
+    {
+      "id": "U3ip0GiR",
+      "title": "Sibling Relief (Disability)",
+      "description": "Provides tax relief to individuals supporting their siblings and siblings-in-law with disability.",
+      "keywords": [
+        "Dependents",
+        "PWDs",
+        "Tax relief"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/U3ip0GiR"
+    },
+    {
+      "id": "SHB",
+      "title": "Silver Housing Bonus (SHB)",
+      "description": "Seniors aged 55 or above may receive cash bonus when they right-size to a 3-room or smaller HDB flat, and top-up the proceeds from the sale of their existing property into their CPF Retirement Account (RA) and join CPF LIFE.",
+      "keywords": [
+        "Cash assistance",
+        "CPF payouts"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "DOMAIN_178",
+        "HOUSING_SHELTERS",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SHB"
+    },
+    {
+      "id": "SILVERSUPPORT",
+      "title": "Silver Support Scheme",
+      "description": "Provides a quarterly cash supplement to give eligible seniors greater assurance in retirement.",
+      "keywords": [
+        "Budget 2024",
+        "Seniors"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "DOMAIN_178"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SILVERSUPPORT"
+    },
+    {
+      "id": "SKILLSFUTURE_CREDITS",
+      "title": "SkillsFuture Credit",
+      "description": "For Singapore Citizens aged 25 and above to pay for or offset the out-of-pocket course fees of approved courses.",
+      "keywords": [
+        "Courses",
+        "Trainings"
+      ],
+      "domains": [
+        "DOMAIN_177",
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "DOMAIN_178",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SKILLSFUTURE_CREDITS"
+    },
+    {
+      "id": "SFC-MID-CAREER",
+      "title": "SkillsFuture Credit (Mid-Career)",
+      "description": "For Singapore Citizens aged 40 and above to pay for or offset the out-of-pocket course fees for selected courses that are oriented towards meeting industry and employment needs.",
+      "keywords": [
+        "Budget 2024",
+        "Mid-career"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SFC-MID-CAREER"
+    },
+    {
+      "id": "SFFELLOW",
+      "title": "SkillsFuture Fellowships",
+      "description": "Awards a $10,000 monetary award to support skills mastery for eligible Singapore Citizens.",
+      "keywords": [
+        "Employment Support and Vocational Training",
+        "Trainings"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SFFELLOW"
+    },
+    {
+      "id": "wpGyuJUN",
+      "title": "SkillsFuture Jobseeker Support Scheme",
+      "description": "Provides temporary financial support of up to $6,000 over 6 months to involuntarily unemployed individuals, to support them in finding a job that makes better use of their skills and experiences.",
+      "keywords": [
+        "Budget 2025",
+        "Jobseekers"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/wpGyuJUN"
+    },
+    {
+      "id": "SFMCES",
+      "title": "SkillsFuture Mid-Career Enhanced Subsidy",
+      "description": "Provides up to 90% subsidy on course fees for Singapore Citizens aged 40 and above.",
+      "keywords": [
+        "Mid-career",
+        "Trainings"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SFMCES"
+    },
+    {
+      "id": "SF-MID-CAREER-TA",
+      "title": "SkillsFuture Mid-Career Training Allowance",
+      "description": "Supports both full-time and part-time long-form training for Singapore Citizens aged 40 and above to upskill and reskill. Individuals can decide which type of training best suits their needs.",
+      "keywords": [
+        "Budget 2026",
+        "Mid-career"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SF-MID-CAREER-TA"
+    },
+    {
+      "id": "SFWKSTDEG",
+      "title": "SkillsFuture Work-Study Degree",
+      "description": "Provides work-relevant skills through on-the-job training and classroom learning for students and working adults.",
+      "keywords": [
+        "Employment Support and Vocational Training",
+        "Jobseekers",
+        "Trainings"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SFWKSTDEG"
+    },
+    {
+      "id": "SVC-SLFS",
+      "title": "Sober Living Framework (SLF)",
+      "description": "Provides crisis intervention, therapy support, and long-term aftercare for persons and families impacted by substance and/or behavioural addictions.",
+      "keywords": [
+        "Addiction",
+        "Fees payable"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "FAMILY_PARENTING",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-SLFS"
+    },
+    {
+      "id": "SVC-SESSAWII",
+      "title": "Special Education (SPED) School (Autism Spectrum Disorder with intellectual impairment)",
+      "description": "Special Education (SPED) schools provide education for children and youth with disabilities who are of school-going age.",
+      "keywords": [
+        "Education",
+        "Fees payable"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-SESSAWII"
+    },
+    {
+      "id": "SVC-SESSAWNII",
+      "title": "Special Education (SPED) School (Autism Spectrum Disorder with no intellectual impairment)",
+      "description": "Special Education (SPED) schools provide education for children and youth with disabilities who are of school-going age.",
+      "keywords": [
+        "Education",
+        "Fees payable"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-SESSAWNII"
+    },
+    {
+      "id": "SVC-SESSMID",
+      "title": "Special Education (SPED) School (Mild Intellectual Disability)",
+      "description": "Special Education (SPED) schools provide education for children and youth with disabilities who are of school-going age.",
+      "keywords": [
+        "Education",
+        "Fees payable"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-SESSMID"
+    },
+    {
+      "id": "SVC-SESSMTSID",
+      "title": "Special Education (SPED) School (Moderate to Severe Intellectual Disability)",
+      "description": "Special Education (SPED) schools provide education for children and youth with disabilities who are of school-going age.",
+      "keywords": [
+        "Education",
+        "Fees payable"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-SESSMTSID"
+    },
+    {
+      "id": "SVC-SESSMD",
+      "title": "Special Education (SPED) School (Multiple Disabilities)",
+      "description": "Special Education (SPED) schools provide education for children and youth with disabilities who are of school-going age.",
+      "keywords": [
+        "Education",
+        "Fees payable"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-SESSMD"
+    },
+    {
+      "id": "SVC-SESSSI",
+      "title": "Special Education (SPED) School (Sensory impairment)",
+      "description": "Special Education (SPED) schools provide education for children and youth with disabilities who are of school-going age.",
+      "keywords": [
+        "Education",
+        "Fees payable"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-SESSSI"
+    },
+    {
+      "id": "SNSS",
+      "title": "Special Needs Savings Scheme (SNSS)",
+      "description": "Enables parents to set aside CPF savings for the long-term care of children with special needs.",
+      "keywords": [
+        "CPF payouts",
+        "Parents",
+        "Special needs"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SNSS"
+    },
+    {
+      "id": "cllsZZkD",
+      "title": "Special Needs Trust",
+      "description": "Special Needs Trust Company (SNTC) is a not-for-profit trust company and a registered charity. As a fully owned subsidiary of SG Enable, SNTC provides affordable trust services to safeguard monies set aside by caregivers to fund the long-term care needs of their beneficiaries who are persons with disability. \n\nThe Special Needs Trust (SNT) is a legal arrangement for SNTC to hold monies for persons with disability (PWD).",
+      "keywords": [
+        "PWDs",
+        "Special needs"
+      ],
+      "domains": [
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/cllsZZkD"
+    },
+    {
+      "id": "SPED-FAS",
+      "title": "SPED Financial Assistance Scheme (FAS)",
+      "description": "Provides financial assistance to lower-income families with children who are in MOE-funded Special Education Schools.",
+      "keywords": [
+        "Education expenses",
+        "Special education",
+        "Students"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SPED-FAS"
+    },
+    {
+      "id": "nO5dmWvA",
+      "title": "Spouse Relief/Spouse Relief (Disability)",
+      "description": "Provides tax relief of up to $5,500 to both male and female taxpayers who have supported their spouses.",
+      "keywords": [
+        "Dependents",
+        "PWDs",
+        "Tax relief"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/nO5dmWvA"
+    },
+    {
+      "id": "OAn8RIRG",
+      "title": "Staggered Downpayment Scheme",
+      "description": "Eases home purchase by allowing eligible first-timer couples and right-sizing flat owners to pay downpayment in 2 parts.",
+      "keywords": [
+        "HDB households",
+        "Home ownership"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/OAn8RIRG"
+    },
+    {
+      "id": "gk4nIS14",
+      "title": "Stamp Duty Remissions for Married and Divorced Couples",
+      "description": "Provides various stamp duty remissions for eligible couples buying new residential property or transferring their current one(s) as part of matrimonial proceedings.",
+      "keywords": [
+        "Home ownership",
+        "Marital and Divorce Support",
+        "Tax relief"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/gk4nIS14"
+    },
+    {
+      "id": "G1ZJdvwf",
+      "title": "Stamp Duty Remissions for Transfer of HDB Flats within Family",
+      "description": "Provides stamp duty remission for eligible transfers of HDB flats within families.",
+      "keywords": [
+        "HDB households"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/G1ZJdvwf"
+    },
+    {
+      "id": "PrBDGZa7",
+      "title": "Step One",
+      "description": "Programme that equips caregivers of young children up to 7 years old diagnosed with developmental delay / disability with knowledge and skills to support their loved ones and themselves.",
+      "keywords": [
+        "Caregiver support",
+        "Parents",
+        "Special needs"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/PrBDGZa7"
+    },
+    {
+      "id": "SU-CPFHG-FAM",
+      "title": "Step-Up CPF Housing Grant (Families)",
+      "description": "Provides a $15,000 Step-Up CPF Housing Grant to eligible second-timer applicants buying a new or resale flat.",
+      "keywords": [
+        "HDB households",
+        "Housing grants"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SU-CPFHG-FAM"
+    },
+    {
+      "id": "C46c4FeP",
+      "title": "Strengthening Elderly Parent-Adult Child Bonds Programme",
+      "description": "A 3-year pilot initiative aimed at strengthening relationships between elderly parents and their adult children.",
+      "keywords": [
+        "Families",
+        "Seniors"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/C46c4FeP"
+    },
+    {
+      "id": "SVC-SFPFFF",
+      "title": "Strengthening Families Programme (FAM)",
+      "description": "Provides divorce support and family counselling to all families.",
+      "keywords": [
+        "Counselling",
+        "Families",
+        "Marital and Divorce Support"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "FAMILY_PARENTING",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-SFPFFF"
+    },
+    {
+      "id": "SCFA",
+      "title": "Student Care Fee Assistance (SCFA)",
+      "description": "Provides fee assistance for children from lower-income working families enrolled in Student Care Centres (SCCs) registered with MSF.",
+      "keywords": [
+        "Budget 2026",
+        "Students",
+        "Subsidies"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SCFA"
+    },
+    {
+      "id": "leUjvFgL",
+      "title": "Supplementary Retirement Scheme (SRS)",
+      "description": "Provides tax relief to encourage individuals to save for retirement, over and above their CPF savings. Investment returns are tax-free before withdrawal and only 50% of withdrawals are taxable at retirement.",
+      "keywords": [
+        "Tax relief"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/leUjvFgL"
+    },
+    {
+      "id": "JqJOoLnT",
+      "title": "Take-a-Break (TAB)",
+      "description": "Take-a-Break (TAB) is a respite care programme to provide caregivers temporary relief from their caregiving responsibilities. \n\nBased on their needs, caregivers may choose from a range of home-based respite care services and determine the frequency of service over a specific duration. \n\nSubsidies are available for eligible caregivers.",
+      "keywords": [
+        "Caregiver support",
+        "Parents",
+        "Special needs"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/JqJOoLnT"
+    },
+    {
+      "id": "I0ZPVBeU",
+      "title": "Tax Payment Support",
+      "description": "Supports eligible individuals in their tax payments through various payment arrangements such as longer GIRO-based instalment plans.",
+      "keywords": [
+        "Long-term",
+        "Tax relief"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/I0ZPVBeU"
+    },
+    {
+      "id": "sygrV7iy",
+      "title": "Tax Reliefs",
+      "description": "Provides tax reliefs to taxpayers who support family members in need, inclusive of dependants with disabilities.",
+      "keywords": [
+        "Dependents",
+        "PWDs",
+        "Tax relief"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "DISABILITY_SUPPORT",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/sygrV7iy"
+    },
+    {
+      "id": "TSS",
+      "title": "Taxi Subsidy Scheme (TSS)",
+      "description": "For persons with permanent disabilities who are medically certified as unable to take public transport and totally dependent on taxi for travel to school, work or SG Enable-supported training.",
+      "keywords": [
+        "Lower-income",
+        "PWDs",
+        "Subsidies"
+      ],
+      "domains": [
+        "CAREGIVING_SUPPORT",
+        "DISABILITY_SUPPORT",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/TSS"
+    },
+    {
+      "id": "TEN-PRIORITY",
+      "title": "Tenants' Priority Scheme (TPS)",
+      "description": "Allocates up to 10% of Flexi / Build-To-Order (BTO) / Sale of Balance (SBF) flats for eligible HDB rental flat tenants to help them purchase a home.",
+      "keywords": [
+        "HDB households",
+        "Home ownership",
+        "Rental flats"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/TEN-PRIORITY"
+    },
+    {
+      "id": "SVC-TBP",
+      "title": "The Builders Project",
+      "description": "Aims to increase social capital and social discipline, and accomplish positive outcomes in Primary 4-6 school children who have been assessed to have higher needs.",
+      "keywords": [
+        "Referral required",
+        "Social-emotional Support"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-TBP"
+    },
+    {
+      "id": "VG22AnYD",
+      "title": "The GRIT Academy",
+      "description": "Mentoring programme for youths-at-risk in Jurong.",
+      "keywords": [
+        "Free"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "MENTAL_HEALTH",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/VG22AnYD"
+    },
+    {
+      "id": "TC-PRIORITY",
+      "title": "Third Child Priority Scheme (TCPS)",
+      "description": "Provides priority in flat allocation to eligible families with 3 or more children.",
+      "keywords": [
+        "HDB households",
+        "Home ownership"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/TC-PRIORITY"
+    },
+    {
+      "id": "CDA",
+      "title": "Top-up to Child Development Account (CDA)",
+      "description": "One-off $400 top-up to Child Development Account (CDA) for Singapore Citizens aged 0 to 6 from September 2023.",
+      "keywords": [
+        "Budget 2023",
+        "Education expenses"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/CDA"
+    },
+    {
+      "id": "SVC-TST",
+      "title": "Transitional Shelter (TS)",
+      "description": "Provide temporary accommodation and social work intervention to homeless families who have exhausted all other means of accommodation.",
+      "keywords": [
+        "Fees payable",
+        "Referral required",
+        "Shelters"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "FAMILY_PARENTING",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-TST"
+    },
+    {
+      "id": "U-SAVE",
+      "title": "U-Save",
+      "description": "Quarterly rebates to offset HDB households’ utilities expenses. In FY2026, eligible households will receive up to $760 in U-Save rebates.",
+      "keywords": [
+        "Budget 2026",
+        "HDB households",
+        "Rebates"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/U-SAVE"
+    },
+    {
+      "id": "Qwr1qXZm",
+      "title": "Unpaid Infant Care Leave (UICL)",
+      "description": "Provides up to 12 days of unpaid leave for eligible parents with Singapore citizen children below 2 years old.",
+      "keywords": [
+        "Infant care",
+        "Parents"
+      ],
+      "domains": [
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/Qwr1qXZm"
+    },
+    {
+      "id": "Z9jTRTTL",
+      "title": "Voluntary Housing Refund",
+      "description": "Allows you to return any CPF savings used for your home purchase to your CPF account while still owning your property. Doing so reduces the refund amount you would have to make and increases the cash proceeds you would get when you eventually sell or transfer your property. This also boosts your retirement savings as you can benefit from CPF interest rates.",
+      "keywords": [
+        "CPF top-ups"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "HOUSING_SHELTERS",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/Z9jTRTTL"
+    },
+    {
+      "id": "SVC-WP",
+      "title": "WiShine",
+      "description": "This programme seeks to support widows and their children who are in bereavement, especially in the widow’s initial adjustment to widowhood. It also supports widows who have relapsed into their grief and have difficulty coping with grief and have weak social support.",
+      "keywords": [
+        "Free",
+        "Social-emotional Support"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-WP"
+    },
+    {
+      "id": "7c13MJjn",
+      "title": "Withdrawal of CPF Savings for Immediate Needs from Age 55",
+      "description": "CPF members can make withdrawals from their CPF savings starting from age 55.",
+      "keywords": [
+        "Cash payouts",
+        "CPF"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "DOMAIN_178",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/7c13MJjn"
+    },
+    {
+      "id": "RLE",
+      "title": "Withdrawal of CPF Savings on Reduced Life Expectancy",
+      "description": "Members with reduced life expectancy due to a medical condition, as certified by an accredited doctor (from public hospitals, polyclinics, or a specialist), may apply to withdraw some of their CPF savings. Severe medical conditions causing them to be permanently unfit for work or to lack mental capacity permanently can also be considered.",
+      "keywords": [
+        "Cash assistance",
+        "CPF payouts",
+        "PWDs"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "FINANCIAL_SUPPORT",
+        "DOMAIN_178",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/RLE"
+    },
+    {
+      "id": "E-WIS",
+      "title": "Workfare Income Supplement (WIS) Scheme",
+      "description": "Supplements eligible workers' income and CPF savings through cash and CPF payments.",
+      "keywords": [
+        "Budget 2024",
+        "Lower-wage workers"
+      ],
+      "domains": [
+        "CAREGIVING",
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT",
+        "DOMAIN_178",
+        "LEGACY_PLANNING",
+        "RETIREMENT_LEGACY"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/E-WIS"
+    },
+    {
+      "id": "L0DUZZzA",
+      "title": "Workfare Skills Support (Level-Up)",
+      "description": "Enhanced tier of Workfare Skills Support (WSS), supporting lower-wage Singaporean workers who go for long-form training.",
+      "keywords": [
+        "Budget 2025",
+        "Lower-wage workers",
+        "Trainings"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FINANCIAL_SUPPORT",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/L0DUZZzA"
+    },
+    {
+      "id": "WSS",
+      "title": "Workfare Skills Support (WSS) (Basic)",
+      "description": "Provides training allowance and cash incentives to encourage lower-wage Singaporean workers to upskill via training.",
+      "keywords": [
+        "Budget 2026",
+        "Trainings",
+        "Workers"
+      ],
+      "domains": [
+        "FINANCIAL_SUPPORT",
+        "WORK_EMPLOYMENT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/WSS"
+    },
+    {
+      "id": "WTCS",
+      "title": "Workfare Transport Concession Scheme",
+      "description": "Provides recipients of Workfare Income Supplement with concessionary rates for travel on public transport.",
+      "keywords": [
+        "Lower-wage workers",
+        "Public transport"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/WTCS"
+    },
+    {
+      "id": "3KmPKHA7",
+      "title": "Working Mother's Child Relief (WMCR)",
+      "description": "Provides tax relief for eligible working mothers, up to 25% of earned income per child. Encourages married women to stay in the workforce after having children, and rewards families with children who are Singapore Citizens.",
+      "keywords": [
+        "Tax relief",
+        "Workers"
+      ],
+      "domains": [
+        "FAMILY_PARENTING",
+        "FINANCIAL_SUPPORT"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/3KmPKHA7"
+    },
+    {
+      "id": "SVC-YC",
+      "title": "Youth COP",
+      "description": "Aims to foster positive development and strengthen protective factors, empowering youths as crime-prevention leaders to help their communities thrive, stay safe, and build resilience.",
+      "keywords": [
+        "Referral required",
+        "Youths at risk"
+      ],
+      "domains": [
+        "EDUCATION_LEARNING",
+        "FAMILY_PARENTING"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/SVC-YC"
+    },
+    {
+      "id": "YIT",
+      "title": "Youth Integrated Team (YIT)",
+      "description": "Provides community-based mental health assessment, therapeutic intervention, case management for youths with mild mental health conditions while monitoring and checking in with the youth before, during and after intervention has been provided.",
+      "keywords": [
+        "Caregiver support",
+        "Referral required"
+      ],
+      "domains": [
+        "COUNSELLING_CRISIS",
+        "FAMILY_PARENTING",
+        "MENTAL_HEALTH"
+      ],
+      "detailUrl": "https://supportgowhere.life.gov.sg/schemes/YIT"
+    }
+  ]
+}
