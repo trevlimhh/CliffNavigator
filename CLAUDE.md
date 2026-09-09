@@ -1,5 +1,5 @@
 # Benefit Cliff & Transition Cliff Navigator
-
+ 
 An AI-powered tool for Singapore family caregivers to understand how a change in
 income or a scheme ending affects the government support they receive. Phase 1 built
 a deterministic rules engine; Phase 2 added an AI layer on top of it (intake extraction
