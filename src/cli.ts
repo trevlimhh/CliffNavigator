@@ -82,7 +82,10 @@ function printSimulation(label: string, sim: SimulationResult): void {
   console.log(`  Gained:              ${sim.gained.map((s) => s.name).join(", ") || "(none)"}`);
   console.log(`  Lost:                ${sim.lost.map((s) => s.name).join(", ") || "(none)"}`);
   console.log(`  Requires assessment: ${sim.requiresAssessment.map((s) => s.name).join(", ") || "(none)"}`);
-  console.log(`  Net monthly impact:  ${sim.netMonthlyDollarImpact >= 0 ? "+" : ""}$${sim.netMonthlyDollarImpact.toFixed(2)}/month`);
+  console.log(`  Net monthly impact:  ${sim.netMonthlyDollarImpact >= 0 ? "+" : ""}$${sim.netMonthlyDollarImpact.toFixed(2)}/month (full take-up)`);
+  console.log(
+    `  Enrolled-only impact: ${sim.enrolledNetMonthlyDollarImpact >= 0 ? "+" : ""}$${sim.enrolledNetMonthlyDollarImpact.toFixed(2)}/month`,
+  );
 }
 
 const baseline = evaluateAllSchemes(sampleProfile, schemes);

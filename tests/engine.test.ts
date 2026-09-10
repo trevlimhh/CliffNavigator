@@ -277,7 +277,96 @@ describe("estimateCurrentBenefitAmount — CTG first-year vs subsequent amount",
 describe("simulateChange — income_change", () => {
   const elderlyMember = { age: 70, citizenship: "citizen" as const, employmentType: "not_employed" as const, hasDisability: false, cpfContributionsByAge55: 50000 };
 
-  it("surfaces a newly gained scheme and a positive net dollar impact when income drops sharply", () => {
+  it("surfaces a newly gained scheme and a positive net dollar impact when income drops sharply, but the enrolled-only impact stays zero since the household was never enrolled", () => {
+    const profile = makeProfile({
+      members: [elderlyMember],
+      grossHouseholdMonthlyIncome: 5000, // starts ineligible for Silver Support
+      housingType: "hdb_3_room",
+      enrolledSchemes: [], // eligible on paper below, but never actually enrolled
+    });
+
+    const sim = simulateChange(profile, { type: "income_change", newGrossHouseholdMonthlyIncome: 600 }, schemes);
+
+    expect(sim.gained.map((s) => s.id)).toContain("silver_support");
+    expect(sim.lost).toHaveLength(0);
+    expect(sim.netMonthlyDollarImpact).toBeGreaterThan(0);
+    // Not enrolled beforehand, so a newly-gained scheme contributes nothing to the enrolled-only figure.
+    expect(sim.enrolledNetMonthlyDollarImpact).toBe(0);
+  });
+
+  it("surfaces a lost scheme and a negative net dollar impact when income rises above a threshold, but the enrolled-only impact stays zero if it was never actually enrolled", () => {
+    const profile = makeProfile({
+      members: [elderlyMember],
+      grossHouseholdMonthlyIncome: 600,
+      housingType: "hdb_3_room",
+      enrolledSchemes: [], // eligible on paper, but never actually enrolled
+    });
+
+    const sim = simulateChange(profile, { type: "income_change", newGrossHouseholdMonthlyIncome: 5000 }, schemes);
+
+    expect(sim.lost.map((s) => s.id)).toContain("silver_support");
+    expect(sim.netMonthlyDollarImpact).toBeLessThan(0);
+    expect(sim.enrolledNetMonthlyDollarImpact).toBe(0);
+  });
+
+  // Isolates the monthly dollar delta for one scheme between two income levels, independent of
+  // whatever else the engine's own eligibility rules do to OTHER schemes across that same income
+  // range — so these tests verify enrolledNetMonthlyDollarImpact correctly ISOLATES one scheme's
+  // contribution, without having to hand-predict every other scheme's behavior at that income.
+  function isolatedMonthlyDelta(schemeId: string, profileBefore: HouseholdProfile, profileAfter: HouseholdProfile): number {
+    const s = scheme(schemeId);
+    const before = evaluateEligibility(s, profileBefore);
+    const after = evaluateEligibility(s, profileAfter);
+    const monthly = (r: typeof before) => (r.status === "ineligible" || r.estimatedBenefitAmount === null ? 0 : normalizeToMonthly(r.estimatedBenefitAmount, s.benefit.frequency));
+    return monthly(after) - monthly(before);
+  }
+
+  it("counts a lost scheme in the enrolled-only impact when the household actually was enrolled in it, isolated from other schemes' own changes", () => {
+    const before = makeProfile({
+      members: [elderlyMember],
+      grossHouseholdMonthlyIncome: 600,
+      housingType: "hdb_3_room",
+      enrolledSchemes: [{ schemeId: "silver_support", enrollmentDate: "2024-01-01" }],
+    });
+    const after = { ...before, grossHouseholdMonthlyIncome: 5000 };
+    const expectedDelta = isolatedMonthlyDelta("silver_support", before, after);
+
+    const sim = simulateChange(before, { type: "income_change", newGrossHouseholdMonthlyIncome: 5000 }, schemes);
+
+    expect(sim.lost.map((s) => s.id)).toContain("silver_support");
+    expect(sim.enrolledNetMonthlyDollarImpact).toBeCloseTo(expectedDelta);
+    expect(sim.enrolledNetMonthlyDollarImpact).toBeLessThan(0);
+    // Other, non-enrolled schemes may also lose value over this same income jump — the enrolled-only
+    // figure must NOT include their contribution, so it should differ from (be less negative than,
+    // here) the full take-up total whenever that's the case.
+    expect(sim.enrolledNetMonthlyDollarImpact).toBeGreaterThanOrEqual(sim.netMonthlyDollarImpact);
+  });
+
+  it("reflects a tier-driven dollar swing on an enrolled scheme that stays eligible (status unaffected) but only when actually enrolled", () => {
+    // Silver Support stays eligible at both income levels (per-capita 600 and 1000, both <=2300),
+    // so the scheme lands in "unaffected" by status — but its payout tier still drops.
+    const base = { members: [elderlyMember], housingType: "hdb_3_room" as const, grossHouseholdMonthlyIncome: 600 };
+    const afterProfile = { ...makeProfile(base), grossHouseholdMonthlyIncome: 1000 };
+    const expectedDelta = isolatedMonthlyDelta("silver_support", makeProfile(base), afterProfile);
+    expect(expectedDelta).toBeLessThan(0); // sanity check: this income move really does cost a tier
+
+    const notEnrolled = makeProfile({ ...base, enrolledSchemes: [] });
+    const simNotEnrolled = simulateChange(notEnrolled, { type: "income_change", newGrossHouseholdMonthlyIncome: 1000 }, schemes);
+    expect(simNotEnrolled.unaffected.map((s) => s.id)).toContain("silver_support");
+    expect(simNotEnrolled.enrolledNetMonthlyDollarImpact).toBe(0);
+    // payoutChanged surfaces the silent tier swing regardless of enrollment — it's about the
+    // eligibility/payout math, not the household's actual take-up.
+    expect(simNotEnrolled.payoutChanged.map((p) => p.scheme.id)).toContain("silver_support");
+    expect(simNotEnrolled.payoutChanged.find((p) => p.scheme.id === "silver_support")?.monthlyDelta).toBeCloseTo(expectedDelta);
+
+    const enrolled = makeProfile({ ...base, enrolledSchemes: [{ schemeId: "silver_support", enrollmentDate: "2024-01-01" }] });
+    const simEnrolled = simulateChange(enrolled, { type: "income_change", newGrossHouseholdMonthlyIncome: 1000 }, schemes);
+    expect(simEnrolled.unaffected.map((s) => s.id)).toContain("silver_support");
+    expect(simEnrolled.enrolledNetMonthlyDollarImpact).toBeCloseTo(expectedDelta);
+    expect(simEnrolled.payoutChanged.map((p) => p.scheme.id)).toContain("silver_support");
+  });
+
+  it("never includes a gained or lost scheme in payoutChanged — only ones that stayed eligible throughout", () => {
     const profile = makeProfile({
       members: [elderlyMember],
       grossHouseholdMonthlyIncome: 5000, // starts ineligible for Silver Support
@@ -286,22 +375,12 @@ describe("simulateChange — income_change", () => {
 
     const sim = simulateChange(profile, { type: "income_change", newGrossHouseholdMonthlyIncome: 600 }, schemes);
 
-    expect(sim.gained.map((s) => s.id)).toContain("silver_support");
-    expect(sim.lost).toHaveLength(0);
-    expect(sim.netMonthlyDollarImpact).toBeGreaterThan(0);
-  });
-
-  it("surfaces a lost scheme and a negative net dollar impact when income rises above a threshold", () => {
-    const profile = makeProfile({
-      members: [elderlyMember],
-      grossHouseholdMonthlyIncome: 600,
-      housingType: "hdb_3_room",
-    });
-
-    const sim = simulateChange(profile, { type: "income_change", newGrossHouseholdMonthlyIncome: 5000 }, schemes);
-
-    expect(sim.lost.map((s) => s.id)).toContain("silver_support");
-    expect(sim.netMonthlyDollarImpact).toBeLessThan(0);
+    const gainedIds = new Set(sim.gained.map((s) => s.id));
+    const lostIds = new Set(sim.lost.map((s) => s.id));
+    for (const change of sim.payoutChanged) {
+      expect(gainedIds.has(change.scheme.id)).toBe(false);
+      expect(lostIds.has(change.scheme.id)).toBe(false);
+    }
   });
 });
 
@@ -318,6 +397,8 @@ describe("simulateChange — scheme_expiry", () => {
     expect(sim.lost.map((s) => s.id)).toEqual(["home_caregiving_grant"]);
     expect(sim.gained).toHaveLength(0);
     expect(sim.netMonthlyDollarImpact).toBeCloseTo(-600);
+    // The only scheme affected was actually enrolled in, so the enrolled-only figure matches the full-take-up one.
+    expect(sim.enrolledNetMonthlyDollarImpact).toBeCloseTo(-600);
   });
 
   it("is a no-op when the household was not actually enrolled in the expiring scheme", () => {
@@ -331,6 +412,7 @@ describe("simulateChange — scheme_expiry", () => {
 
     expect(sim.lost).toHaveLength(0);
     expect(sim.netMonthlyDollarImpact).toBe(0);
+    expect(sim.enrolledNetMonthlyDollarImpact).toBe(0);
   });
 });
 
@@ -345,6 +427,24 @@ describe("compareProfiles", () => {
     expect(viaCompare.gained.map((s) => s.id)).toEqual(viaSimulate.gained.map((s) => s.id));
     expect(viaCompare.lost.map((s) => s.id)).toEqual(viaSimulate.lost.map((s) => s.id));
     expect(viaCompare.netMonthlyDollarImpact).toBe(viaSimulate.netMonthlyDollarImpact);
+    expect(viaCompare.enrolledNetMonthlyDollarImpact).toBe(viaSimulate.enrolledNetMonthlyDollarImpact);
+  });
+
+  it("counts a scheme lost via compareProfiles toward the enrolled-only impact when it was in the OLD profile's enrollment", () => {
+    const oldProfile = makeProfile({
+      grossHouseholdMonthlyIncome: 1000,
+      hasCertifiedCareNeed: true,
+      enrolledSchemes: [{ schemeId: "home_caregiving_grant", enrollmentDate: "2024-01-01" }],
+    });
+    // Dropping the care need loses eligibility for HCG (already enrolled) and CTG (not enrolled).
+    const newProfile = { ...oldProfile, hasCertifiedCareNeed: false };
+
+    const result = compareProfiles(oldProfile, newProfile, schemes);
+
+    expect(result.lost.map((s) => s.id)).toEqual(expect.arrayContaining(["home_caregiving_grant", "caregivers_training_grant"]));
+    // Both schemes are lost, but only the one actually enrolled in contributes to the enrolled-only figure.
+    expect(result.enrolledNetMonthlyDollarImpact).toBeGreaterThan(result.netMonthlyDollarImpact);
+    expect(result.enrolledNetMonthlyDollarImpact).toBeLessThan(0);
   });
 
   it("detects a change unrelated to income or scheme expiry, e.g. a newly certified care need", () => {

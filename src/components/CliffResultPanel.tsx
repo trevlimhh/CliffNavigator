@@ -10,6 +10,8 @@ interface CliffResultPanelProps {
 export function CliffResultPanel({ simulation, explanation, source }: CliffResultPanelProps) {
   const impact = simulation.netMonthlyDollarImpact;
   const impactColor = impact > 0 ? "text-emerald-600" : impact < 0 ? "text-rose-600" : "text-slate-600";
+  const enrolledImpact = simulation.enrolledNetMonthlyDollarImpact;
+  const enrolledImpactColor = enrolledImpact > 0 ? "text-emerald-600" : enrolledImpact < 0 ? "text-rose-600" : "text-slate-600";
 
   return (
     <div className="space-y-4 rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
@@ -20,10 +22,15 @@ export function CliffResultPanel({ simulation, explanation, source }: CliffResul
       )}
 
       <div className="text-center">
-        <p className="text-sm text-slate-500">Estimated net impact</p>
+        <p className="text-sm text-slate-500">If you claim everything you&apos;re eligible for</p>
         <p className={`text-4xl font-bold ${impactColor}`}>
           {impact >= 0 ? "+" : "-"}${Math.abs(impact).toFixed(0)}
           <span className="text-lg font-medium text-slate-500">/month</span>
+        </p>
+        <p className="mt-2 text-sm text-slate-500">Change to what you&apos;re currently receiving</p>
+        <p className={`text-xl font-semibold ${enrolledImpactColor}`}>
+          {enrolledImpact >= 0 ? "+" : "-"}${Math.abs(enrolledImpact).toFixed(0)}
+          <span className="text-sm font-medium text-slate-500">/month</span>
         </p>
       </div>
 
@@ -36,6 +43,24 @@ export function CliffResultPanel({ simulation, explanation, source }: CliffResul
         <SchemeListCard title="Lost — at risk" tone="rose" schemes={simulation.lost} linkLabel="Learn more →" />
         <SchemeListCard title="Needs assessment" tone="amber" schemes={simulation.requiresAssessment} linkLabel="Learn more →" />
       </div>
+
+      {/* Schemes that stay eligible the whole time can still silently move payout tiers (e.g.
+          Silver Support sliding to a different income band) — that dollar swing is real and
+          already counted in the totals above, but Gained/Lost/Needs-assessment never mention it
+          since the scheme's eligibility STATUS never changed. Called out explicitly here instead
+          of leaving it something only the headline number hints at. */}
+      {simulation.payoutChanged.length > 0 && (
+        <div className="rounded-lg border border-sky-200 bg-sky-50 p-3">
+          <p className="text-xs font-semibold uppercase tracking-wide text-sky-800">Payout changed (still eligible)</p>
+          <ul className="mt-1 space-y-1 text-sm text-sky-800">
+            {simulation.payoutChanged.map(({ scheme, beforeAmount, afterAmount }) => (
+              <li key={scheme.id}>
+                {scheme.name} — ${beforeAmount ?? "?"}/{scheme.benefit.frequency} → ${afterAmount ?? "?"}/{scheme.benefit.frequency}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
         <p className="text-lg font-semibold text-slate-900">{explanation.headline}</p>

@@ -9,6 +9,7 @@ import type {
   EligibilityResult,
   EligibilityStatus,
   EnrolledScheme,
+  PayoutChange,
   ProfileChange,
   SimulationResult,
   Frequency,
@@ -265,6 +266,9 @@ function monthlyValueIfReceiving(result: EligibilityResult): number {
  * household could newly claim, not only ones they already have. `netMonthlyDollarImpact` mirrors
  * a "full take-up" assumption for income changes: it sums the change in estimated monthly value
  * across every scheme the household is (or becomes) eligible for, regardless of `enrolledSchemes`.
+ * `enrolledNetMonthlyDollarImpact` answers a different question — "what happens to what this
+ * household is already receiving" — by summing that same per-scheme delta restricted to schemes
+ * present in `profile.enrolledSchemes` as of BEFORE the change.
  */
 /**
  * Shared diffing logic behind both simulateChange() and compareProfiles(): given a before/after
@@ -273,12 +277,19 @@ function monthlyValueIfReceiving(result: EligibilityResult): number {
  * callers go through simulateChange() or compareProfiles(), which are responsible for producing
  * a valid before/after pair in the first place.
  */
-function buildSimulationResult(before: EligibilityResult[], after: EligibilityResult[], catalog: Scheme[]): SimulationResult {
+function buildSimulationResult(
+  before: EligibilityResult[],
+  after: EligibilityResult[],
+  catalog: Scheme[],
+  enrolledSchemeIds: ReadonlySet<string>,
+): SimulationResult {
   const gained: Scheme[] = [];
   const lost: Scheme[] = [];
   const unaffected: Scheme[] = [];
   const requiresAssessment: Scheme[] = [];
+  const payoutChanged: PayoutChange[] = [];
   let netMonthlyDollarImpact = 0;
+  let enrolledNetMonthlyDollarImpact = 0;
 
   catalog.forEach((scheme, i) => {
     const b = before[i]!;
@@ -292,10 +303,18 @@ function buildSimulationResult(before: EligibilityResult[], after: EligibilityRe
 
     if (a.status === "possibly_eligible_requires_assessment") requiresAssessment.push(scheme);
 
-    netMonthlyDollarImpact += monthlyValueIfReceiving(a) - monthlyValueIfReceiving(b);
+    const delta = monthlyValueIfReceiving(a) - monthlyValueIfReceiving(b);
+    netMonthlyDollarImpact += delta;
+    if (enrolledSchemeIds.has(scheme.id)) enrolledNetMonthlyDollarImpact += delta;
+
+    // A scheme that stayed eligible the whole time can still move payout tiers (e.g. Silver
+    // Support sliding to a different income band) — a dollar swing `unaffected` alone hides.
+    if (wasReceiving && nowReceiving && Math.abs(delta) > 0.005) {
+      payoutChanged.push({ scheme, beforeAmount: b.estimatedBenefitAmount, afterAmount: a.estimatedBenefitAmount, monthlyDelta: delta });
+    }
   });
 
-  return { before, after, gained, lost, unaffected, requiresAssessment, netMonthlyDollarImpact };
+  return { before, after, gained, lost, unaffected, requiresAssessment, payoutChanged, netMonthlyDollarImpact, enrolledNetMonthlyDollarImpact };
 }
 
 export function simulateChange(profile: HouseholdProfile, change: ProfileChange, catalog: Scheme[]): SimulationResult {
@@ -315,7 +334,8 @@ export function simulateChange(profile: HouseholdProfile, change: ProfileChange,
     });
   }
 
-  return buildSimulationResult(before, after, catalog);
+  const enrolledSchemeIds = new Set(profile.enrolledSchemes.map((e) => e.schemeId));
+  return buildSimulationResult(before, after, catalog, enrolledSchemeIds);
 }
 
 /**
@@ -330,7 +350,8 @@ export function simulateChange(profile: HouseholdProfile, change: ProfileChange,
 export function compareProfiles(oldProfile: HouseholdProfile, newProfile: HouseholdProfile, catalog: Scheme[]): SimulationResult {
   const before = evaluateAllSchemes(oldProfile, catalog);
   const after = evaluateAllSchemes(newProfile, catalog);
-  return buildSimulationResult(before, after, catalog);
+  const enrolledSchemeIds = new Set(oldProfile.enrolledSchemes.map((e) => e.schemeId));
+  return buildSimulationResult(before, after, catalog, enrolledSchemeIds);
 }
 
 /**

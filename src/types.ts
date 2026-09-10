@@ -199,8 +199,40 @@ export interface SimulationResult {
    */
   unaffected: Scheme[];
   requiresAssessment: Scheme[];
-  /** Sum of (after - before) estimated benefit, normalized to a monthly figure. See normalizeToMonthly(). */
+  /**
+   * The subset of `unaffected` schemes (still eligible both before and after — never appears for
+   * a scheme in `gained`/`lost`) whose actual payout tier still moved, e.g. a means-tested scheme
+   * like Silver Support staying eligible while sliding to a lower/higher income band. This is the
+   * real dollar swing `unaffected` alone can hide (see its own doc comment above) — surfaced
+   * explicitly here instead of only being buried in `netMonthlyDollarImpact`'s total. Amounts are
+   * in the scheme's own `benefit.frequency` units (not monthly-normalized), matching how the rest
+   * of the UI displays a scheme's payout.
+   */
+  payoutChanged: PayoutChange[];
+  /**
+   * Sum of (after - before) estimated benefit across every scheme the household is or becomes
+   * eligible for, normalized to a monthly figure — a "full take-up" number ("if you claimed
+   * everything you qualify for"), regardless of current enrollment. See normalizeToMonthly().
+   */
   netMonthlyDollarImpact: number;
+  /**
+   * The same (after - before) sum, but restricted to schemes the household was ALREADY enrolled
+   * in before the change — "what happens to what you're currently receiving." A currently-enrolled
+   * scheme that loses eligibility (e.g. an income rise crossing a threshold, or a scheme expiring)
+   * shows up here as a negative delta even though it's also reflected in `lost`; a scheme the
+   * household isn't enrolled in never contributes to this figure, even if `gained`.
+   */
+  enrolledNetMonthlyDollarImpact: number;
+}
+
+export interface PayoutChange {
+  scheme: Scheme;
+  /** Estimated payout before the change, in `scheme.benefit.frequency` units. Null if there was no formula estimate. */
+  beforeAmount: number | null;
+  /** Estimated payout after the change, in `scheme.benefit.frequency` units. Null if there was no formula estimate. */
+  afterAmount: number | null;
+  /** (after - before), normalized to a monthly figure — same units as `netMonthlyDollarImpact`. */
+  monthlyDelta: number;
 }
 
 export interface RenewalStatus {

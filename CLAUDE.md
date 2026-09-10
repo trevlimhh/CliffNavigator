@@ -143,12 +143,45 @@ moving between income tiers, changing the payout amount. That shows up in
 `netMonthlyDollarImpact`, not in the `gained`/`lost` buckets — `unaffected` only means the
 eligible/ineligible status didn't flip. Read the dollar figure, not just the three lists.
 
-### `netMonthlyDollarImpact` assumes full take-up
+### `netMonthlyDollarImpact` assumes full take-up — `enrolledNetMonthlyDollarImpact` is the conservative counterpart
 
 The net dollar impact for an income-change simulation sums the estimated monthly value across
 every scheme the household **is or becomes eligible for**, regardless of current enrollment. This
 is a "best case, you claim everything you qualify for" number, not "money you're definitely
-already receiving". A future UI could offer a more conservative enrolled-only variant.
+already receiving".
+
+`enrolledNetMonthlyDollarImpact` (in `buildSimulationResult()`, `src/engine.ts`) answers the other
+question: "what happens to what this household is *already* receiving." It's the same per-scheme
+(after − before) delta, summed only across schemes present in the pre-change profile's
+`enrolledSchemes` — a scheme the household newly *gains* never contributes to it, but a
+currently-enrolled scheme that's *lost* (via an income threshold, or `scheme_expiry`) does, even
+though the scheme also appears in `lost`. Both `simulateChange()` and `compareProfiles()` compute
+the enrolled-scheme-id set from the profile as it stood **before** the change, not after — a change
+that also edits `enrolledSchemes` (not something either of the two `ProfileChange` variants or
+`compareProfiles`'s household-level diff currently do) would still be evaluated against the old
+enrollment, which is the intended semantics ("what changed for what you had going in").
+
+`CliffResultPanel.tsx` shows both numbers now: the full-take-up figure as the headline ("if you
+claim everything you're eligible for") and the enrolled-only figure underneath ("change to what
+you're currently receiving") — deliberately not replacing one with the other, since a caseworker
+handoff benefits from seeing untapped potential support while a household asking "how does this
+affect me" wants the conservative number front and center too.
+
+**A real discrepancy this caught**: a test simulation (2-person household, income $1,000 →
+$3,000, enrolled in SMTA/LTA/CTG/Silver Support) showed a $1,943/month drop, but manually adding
+up the two schemes that actually appeared in `lost` (SMTA $500 + LTA $1,250 formula estimates)
+only accounted for $1,750 — a $193 gap with no visible explanation anywhere in the UI. The cause:
+Silver Support Scheme stayed *eligible* the whole time (per-capita income $500 → $1,500 never
+crossed its $2,300 ceiling) but slid from its $650-ceiling tier ($1,080/quarter) to its
+$1,700-ceiling tier ($500/quarter) — exactly the "unaffected can still hide a dollar swing" case
+documented above, except until now nothing surfaced *which* scheme or *why*. Fixed by adding
+`payoutChanged: PayoutChange[]` to `SimulationResult` (`src/types.ts`) — the subset of `unaffected`
+schemes whose monthly value delta is non-zero (`Math.abs(delta) > 0.005`, in `buildSimulationResult()`),
+each carrying the before/after amount in the scheme's own `benefit.frequency` units. `CliffResultPanel.tsx`
+renders it as a fourth card ("Payout changed (still eligible)") alongside Gained/Lost/Needs
+assessment, so a tier-only swing is never silent again — a household can now see exactly which
+enrolled scheme moved and by how much, not just infer it from the headline total not matching
+their own arithmetic.
 
 ### `normalizeToMonthly()` treats one-time payouts as $0/month
 
